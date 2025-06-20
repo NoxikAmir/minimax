@@ -125,7 +125,6 @@ def generate_minimax_tts(api_key, group_id, voice_id, text, model="speech-02-tur
     }
     try:
         response = requests.post(url, headers=headers, json=payload, timeout=60)
-        print(f"DEBUG: Minimax API Response Status: {response.status_code}, Body: {response.text}")
         response.raise_for_status()
         result = response.json()
         if result.get("base_resp", {}).get("status_code") != 0:
