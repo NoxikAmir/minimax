@@ -440,19 +440,14 @@ def upload_to_r2(local_file_path, object_name=None):
     if object_name is None:
         object_name = os.path.basename(local_file_path)
 
-    # --- بداية التعديل ---
-    # قاموس لأنواع المحتوى الشائعة
     content_type_map = {
         '.mp3': 'audio/mpeg',
         '.wav': 'audio/wav',
         '.ogg': 'audio/ogg',
         '.m4a': 'audio/mp4',
-        # أضف أنواع أخرى هنا إذا احتجت
     }
-    # تحديد نوع المحتوى بناءً على امتداد الملف
     file_extension = os.path.splitext(local_file_path)[1].lower()
-    content_type = content_type_map.get(file_extension, 'application/octet-stream') # قيمة افتراضية
-    # --- نهاية التعديل ---
+    content_type = content_type_map.get(file_extension, 'application/octet-stream')
 
     endpoint_url = f'https://{CLOUDFLARE_ACCOUNT_ID}.r2.cloudflarestorage.com'
 
@@ -465,14 +460,20 @@ def upload_to_r2(local_file_path, object_name=None):
     )
 
     try:
+        extra_args = {
+            'ContentType': content_type,
+            'ContentDisposition': f'attachment; filename="{object_name}"'
+        }
+        
         s3_client.upload_file(
             local_file_path,
             R2_BUCKET_NAME,
             object_name,
-            ExtraArgs={'ContentType': content_type} # استخدام المتغير الديناميكي هنا
+            ExtraArgs=extra_args
         )
+        
         public_url = f"{R2_PUBLIC_DOMAIN}/{object_name}"
-        print(f"✅ Successfully uploaded {object_name} with content type {content_type} to R2: {public_url}")
+        print(f"✅ Successfully uploaded {object_name} with force download header to R2: {public_url}")
         return public_url
     except Exception as e:
         print(f"❌ Error uploading to R2: {e}")
