@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login - Minimax TTS Studio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}" type="image/x-icon">
+    <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}" type="image/x-icon">
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+        :root {
+            --font-primary-layout: 'Inter', 'Segoe UI', sans-serif;
+            --color-bg-deep-space: #0f0c29;
+            --color-bg-nebula: #24243e;
+            --color-bg-stardust: #302b63;
+            --color-bg-glass: rgba(36, 36, 62, 0.65);
+            --color-border-glow-layout: rgba(126, 87, 194, 0.35);
+            --color-border-strong-layout: #533E85;
+            --color-text-primary-layout: #f0f0f5;
+            --color-text-secondary-layout: #c0b8d9;
+            --color-text-on-accent-layout: #FFFFFF;
+            --color-accent-primary-layout: #8E2DE2;
+            --color-accent-secondary-layout: #4A00E0;
+            --color-accent-tertiary-layout: #00CFE8;
+            --standard-box-shadow-layout: 0 8px 25px rgba(0, 0, 0, 0.25);
+            --border-radius-medium-layout: 12px;
+            --border-radius-large-layout: 18px;
+            --transition-fast-layout: all 0.25s ease-in-out;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            margin: 0;
+            font-family: var(--font-primary-layout);
+            background: linear-gradient(140deg, var(--color-bg-deep-space), var(--color-bg-nebula) 70%, var(--color-bg-stardust));
+            color: var(--color-text-primary-layout);
+            display: flex; /* Required for centering */
+            align-items: center; /* Vertically center */
+            justify-content: center; /* Horizontally center */
+            min-height: 100vh;
+        }
+        /* Style for the main container from your app */
+        .tts-studio-container {
+            width: 100%;
+            max-width: 480px; /* A good width for login forms */
+            background: var(--color-bg-glass);
+            backdrop-filter: blur(10px) saturate(180%);
+            padding: 40px;
+            border-radius: var(--border-radius-large-layout);
+            border: 1px solid var(--color-border-glow-layout);
+            box-shadow: var(--standard-box-shadow-layout);
+        }
+        .auth-header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .auth-header h1 {
+            font-size: 2.2em;
+            font-weight: 700;
+            color: var(--color-text-primary-layout);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+        }
+        .auth-header i {
+            color: var(--color-accent-tertiary-layout);
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        .form-input {
+            width: 100%;
+            padding: 12px 18px;
+            background-color: var(--color-bg-stardust);
+            border: 1.5px solid var(--color-border-strong-layout);
+            border-radius: var(--border-radius-medium-layout);
+            color: var(--color-text-primary-layout);
+            font-size: 1em;
+            font-family: var(--font-primary-layout);
+            transition: border-color var(--transition-fast-layout), box-shadow var(--transition-fast-layout);
+        }
+        .form-input:focus {
+            outline: none;
+            border-color: var(--color-accent-primary-layout);
+            background-color: var(--color-bg-nebula);
+        }
+        .submit-btn {
+            width: 100%;
+            padding: 14px 25px;
+            background: linear-gradient(135deg, var(--color-accent-secondary-layout), var(--color-accent-primary-layout));
+            color: var(--color-text-on-accent-layout);
+            border: none;
+            border-radius: var(--border-radius-medium-layout);
+            font-size: 1.1em;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        .submit-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+        .auth-switch-link {
+            display: block;
+            text-align: center;
+            margin-top: 25px;
+            color: var(--color-text-secondary-layout);
+        }
+        .auth-switch-link a {
+            color: var(--color-accent-tertiary-layout);
+            font-weight: 600;
+            text-decoration: none;
+        }
+        .flash-messages {
+            list-style-type: none;
+            padding: 0;
+            margin-bottom: 20px;
+        }
+        .flash-messages li {
+            padding: 12px;
+            border-radius: var(--border-radius-medium-layout);
+            background-color: rgba(255, 61, 0, 0.2);
+            border: 1px solid #FF3D00;
+            color: #FF3D00;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="tts-studio-container">
+        <div class="auth-header">
+            <h1><i class="fas fa-sign-in-alt"></i> Login</h1>
+        </div>
+
+        {% with messages = get_flashed_messages() %}
+            {% if messages %}
+                <ul class="flash-messages">
+                    {% for message in messages %}
+                        <li>{{ message }}</li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
+        {% endwith %}
+
+        <form method="POST" action="{{ url_for('login') }}">
+            <div class="form-group">
+                <input type="text" name="username" class="form-input" placeholder="Username" required>
+            </div>
+            <div class="form-group">
+                <input type="password" name="password" class="form-input" placeholder="Password" required>
+            </div>
+            <button type="submit" class="submit-btn">Login</button>
+        </form>
+
+        <p class="auth-switch-link">
+            Don't have an account? <a href="{{ url_for('register') }}">Register here</a>
+        </p>
+    </div>
+
+</body>
+</html>

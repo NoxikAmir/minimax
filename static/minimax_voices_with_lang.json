@@ -1,0 +1,4685 @@
+[
+  {
+    "id": "English_Magnetic_Male_12",
+    "name": "Nature Show Host",
+    "tags": [
+      "English",
+      "Male",
+      "Adult",
+      "Lively",
+      "EN-British"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "English_expressive_narrator",
+    "name": "Expressive Narrator",
+    "tags": [
+      "English",
+      "Male",
+      "Adult",
+      "Audiobook",
+      "EN-British"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "English_radiant_girl",
+    "name": "Radiant Girl",
+    "tags": [
+      "English",
+      "Female",
+      "Young Adult",
+      "Lively",
+      "EN-US (General)"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "English_magnetic_voiced_man",
+    "name": "Magnetic-voiced Male",
+    "tags": [
+      "English",
+      "Male",
+      "Adult",
+      "Ads",
+      "EN-US (General)"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "English_compelling_lady1",
+    "name": "Compelling Lady",
+    "tags": [
+      "English",
+      "Female",
+      "Adult",
+      "Broadcase",
+      "EN-British"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "English_Aussie_Bloke",
+    "name": "Aussie Bloke",
+    "tags": [
+      "English",
+      "Male",
+      "Adult",
+      "Bright",
+      "EN-Australian"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "English_captivating_female1",
+    "name": "Captivating Female",
+    "tags": [
+      "English",
+      "Female",
+      "Adult",
+      "News Report",
+      "EN-US (General)"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "English_Upbeat_Woman",
+    "name": "Upbeat Woman",
+    "tags": [
+      "English",
+      "Female",
+      "Adult",
+      "Bright",
+      "EN-US (General)"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "English_Trustworth_Man",
+    "name": "Trustworthy Man",
+    "tags": [
+      "English",
+      "Male",
+      "Adult",
+      "Resonate",
+      "EN-US (General)"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "English_CalmWoman",
+    "name": "Calm Woman",
+    "tags": [
+      "English",
+      "Female",
+      "Adult",
+      "Audiobook",
+      "EN-US (General)"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "English_UpsetGirl",
+    "name": "Upset Girl",
+    "tags": [
+      "English",
+      "Female",
+      "Young Adult",
+      "Sad",
+      "EN-British"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "English_Gentle-voiced_man",
+    "name": "Gentle-voiced Man",
+    "tags": [
+      "English",
+      "Male",
+      "Adult",
+      "Resonant",
+      "EN-US (General)"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "English_Whispering_girl_v3",
+    "name": "Whispering girl",
+    "tags": [
+      "English",
+      "Female",
+      "Young Adult",
+      "ASMR",
+      "EN-US (General)"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "English_Diligent_Man",
+    "name": "Diligent Man",
+    "tags": [
+      "English",
+      "Male",
+      "Adult",
+      "Sincere",
+      "EN-Indian"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "English_Graceful_Lady",
+    "name": "Graceful Lady",
+    "tags": [
+      "English",
+      "Female",
+      "Middle Age",
+      "Elegant",
+      "EN-British"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "English_ReservedYoungMan",
+    "name": "Reserved Young Man",
+    "tags": [
+      "English",
+      "Male",
+      "Adult",
+      "Cold",
+      "EN-US (General)"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "English_PlayfulGirl",
+    "name": "Playful Girl",
+    "tags": [
+      "English",
+      "Female",
+      "Youth",
+      "Cartoon",
+      "EN-US (General)"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "English_ManWithDeepVoice",
+    "name": "Man With Deep Voice",
+    "tags": [
+      "English",
+      "Male",
+      "Adult",
+      "Deep",
+      "EN-US (General)"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "English_GentleTeacher",
+    "name": "Gentle Teacher",
+    "tags": [
+      "English",
+      "Male",
+      "Adult",
+      "Mild",
+      "Indian"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "English_MaturePartner",
+    "name": "Mature Partner",
+    "tags": [
+      "English",
+      "Male",
+      "Middle Age",
+      "Gentle",
+      "EN-British"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "English_FriendlyPerson",
+    "name": "Friendly Guy",
+    "tags": [
+      "English",
+      "Male",
+      "Adult",
+      "Natural",
+      "EN-US (General)"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "English_MatureBoss",
+    "name": "Bossy Lady",
+    "tags": [
+      "English",
+      "Female",
+      "Middle Age",
+      "Mature",
+      "EN-US (General)"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "English_Debator",
+    "name": "Male Debater",
+    "tags": [
+      "English",
+      "Male",
+      "Middle Age",
+      "Tough",
+      "EN-US (General)"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "English_Abbess",
+    "name": "Abbess",
+    "tags": [
+      "English",
+      "Female",
+      "Adult",
+      "Warily",
+      "US (General)"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "English_LovelyGirl",
+    "name": "Lovely Girl",
+    "tags": [
+      "English",
+      "Female",
+      "Youth",
+      "Sweet",
+      "EN-British"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "English_Steadymentor",
+    "name": "Reliable Man",
+    "tags": [
+      "English",
+      "Male",
+      "Young Adult",
+      "Arrogant",
+      "EN-US (General)"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "English_Deep-VoicedGentleman",
+    "name": "Deep-voiced Gentleman",
+    "tags": [
+      "English",
+      "Male",
+      "Adult",
+      "Wise",
+      "EN-British"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "English_DeterminedMan",
+    "name": "Determined Man",
+    "tags": [
+      "English",
+      "Male",
+      "Adult",
+      "Determined",
+      "US (General)"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "English_Wiselady",
+    "name": "Wise Lady",
+    "tags": [
+      "English",
+      "Female",
+      "Middle Age",
+      "Genially",
+      "EN-British"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "English_CaptivatingStoryteller",
+    "name": "Captivating Storyteller",
+    "tags": [
+      "English",
+      "Male",
+      "Senior",
+      "Cold",
+      "EN-US (General)"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "English_AttractiveGirl",
+    "name": "Attractive Woman",
+    "tags": [
+      "English",
+      "Female",
+      "Adult",
+      "Alluring",
+      "US (General)"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "English_DecentYoungMan",
+    "name": "Decent Young Man",
+    "tags": [
+      "English",
+      "Male",
+      "Adult",
+      "Decent",
+      "EN-British"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "English_SentimentalLady",
+    "name": "Sentimental Lady",
+    "tags": [
+      "English",
+      "Female",
+      "Middle Age",
+      "Elegant",
+      "EN-British"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "English_ImposingManner",
+    "name": "Imposing Queen",
+    "tags": [
+      "English",
+      "Female",
+      "Adult",
+      "Imposing",
+      "EN-British"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "English_SadTeen",
+    "name": "Teen Boy",
+    "tags": [
+      "English",
+      "Male",
+      "Young Adult",
+      "Frustrated",
+      "EN-British"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "English_ThoughtfulMan",
+    "name": "Thoughtful Man",
+    "tags": [
+      "English",
+      "Male",
+      "Young Adult",
+      "Solicitously",
+      "US (General)"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "English_PassionateWarrior",
+    "name": "Passionate Warrior",
+    "tags": [
+      "English",
+      "Male",
+      "Young Adult",
+      "Energetic",
+      "EN-US (General)"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "English_DecentBoy",
+    "name": "Decent Boy",
+    "tags": [
+      "English",
+      "Male",
+      "Young Adult",
+      "Decent",
+      "England"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "English_WiseScholar",
+    "name": "Wise Scholar",
+    "tags": [
+      "English",
+      "Male",
+      "Young Adult",
+      "Conversational",
+      "EN-British"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "English_Soft-spokenGirl",
+    "name": "Soft-Spoken Girl",
+    "tags": [
+      "English",
+      "Female",
+      "Youth",
+      "Adorable",
+      "EN-US (General)"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "English_SereneWoman",
+    "name": "Serene Woman",
+    "tags": [
+      "English",
+      "Female",
+      "Young Adult",
+      "Friendly",
+      "EN-US (General)"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "English_ConfidentWoman",
+    "name": "Confident Woman",
+    "tags": [
+      "English",
+      "Female",
+      "Young Adult",
+      "Firm",
+      "EN-US (General)"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "English_patient_man_v1",
+    "name": "Patient Man",
+    "tags": [
+      "English",
+      "Male",
+      "Adult",
+      "Patient",
+      "EN-British"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "English_Comedian",
+    "name": "Comedian",
+    "tags": [
+      "English",
+      "Male",
+      "Young Adult",
+      "Breezily",
+      "EN-British"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "English_GorgeousLady",
+    "name": "Gorgeous Lady",
+    "tags": [
+      "English",
+      "Female",
+      "Adult",
+      "Elegant",
+      "US (General)"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "English_BossyLeader",
+    "name": "Bossy Leader",
+    "tags": [
+      "English",
+      "Male",
+      "Adult",
+      "Unconcernedly",
+      "EN-US (General)"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "English_LovelyLady",
+    "name": "Lovely Lady",
+    "tags": [
+      "English",
+      "Female",
+      "Adult",
+      "Vibrant",
+      "US (General)"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "English_Strong-WilledBoy",
+    "name": "Strong-Willed Boy",
+    "tags": [
+      "English",
+      "Male",
+      "Young Adult",
+      "Mature",
+      "EN-British"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "English_Deep-tonedMan",
+    "name": "Deep-toned Man",
+    "tags": [
+      "English",
+      "Male",
+      "Middle Age",
+      "Charismatic",
+      "US (General)"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "English_StressedLady",
+    "name": "Stressed Lady",
+    "tags": [
+      "English",
+      "Female",
+      "Middle Age",
+      "Unsure",
+      "EN-US (General)"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "English_AssertiveQueen",
+    "name": "Assertive Queen",
+    "tags": [
+      "English",
+      "Female",
+      "Young Adult",
+      "Guarded",
+      "EN-US (General)"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "English_AnimeCharacter",
+    "name": "Female Narrator",
+    "tags": [
+      "English",
+      "Female",
+      "Middle Age",
+      "Sincerely",
+      "EN-British"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "English_Jovialman",
+    "name": "Jovial Man",
+    "tags": [
+      "English",
+      "Male",
+      "Middle Age",
+      "Mature",
+      "EN-US (General)"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "English_WhimsicalGirl",
+    "name": "Whimsical Girl",
+    "tags": [
+      "English",
+      "Female",
+      "Young Adult",
+      "Wary",
+      "EN-US (General)"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "English_CharmingQueen",
+    "name": "Charming Queen",
+    "tags": [
+      "English",
+      "Female",
+      "Adult",
+      "Bewitching",
+      "England"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "English_Kind-heartedGirl",
+    "name": "Kind-Hearted Girl",
+    "tags": [
+      "English",
+      "Female",
+      "Young Adult",
+      "Calm",
+      "EN-US (General)"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "English_FriendlyNeighbor",
+    "name": "Friendly Neighbor",
+    "tags": [
+      "English",
+      "Female",
+      "Young Adult",
+      "Energetic",
+      "US (General)"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "English_Sweet_Female_4",
+    "name": "Sweet Girl",
+    "tags": [
+      "English",
+      "Female",
+      "Adult",
+      "Lively",
+      "EN-US (General)"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "English_Magnetic_Male_2",
+    "name": "Magnetic Man",
+    "tags": [
+      "English",
+      "Male",
+      "Adult",
+      "News Report",
+      "EN-British"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "English_Lively_Male_11",
+    "name": "Lively Man",
+    "tags": [
+      "English",
+      "Male",
+      "Adult",
+      "News Report",
+      "EN-US (General)"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "English_Friendly_Female_3",
+    "name": "Friendly Women",
+    "tags": [
+      "English",
+      "Female",
+      "Adult",
+      "Broadcast",
+      "EN-US (General)"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "English_Steady_Female_1",
+    "name": "Steady Women",
+    "tags": [
+      "English",
+      "Female",
+      "Adult",
+      "Broadcast",
+      "EN-US (General)"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "English_Lively_Male_10",
+    "name": "News Presenter",
+    "tags": [
+      "English",
+      "Male",
+      "Adult",
+      "News Report",
+      "EN-British"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "English_Steady_Female_5",
+    "name": "Female Actor",
+    "tags": [
+      "English",
+      "Female",
+      "Adult",
+      "Lively",
+      "EN-British"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "Arabic_CalmWoman",
+    "name": "Calm Woman",
+    "tags": [
+      "Arabic",
+      "Female",
+      "Adult",
+      "Audiobook",
+      "Standard"
+    ],
+    "language": "ar"
+  },
+  {
+    "id": "Arabic_FriendlyGuy",
+    "name": "Friendly Guy",
+    "tags": [
+      "Arabic",
+      "Male",
+      "Adult",
+      "Natural",
+      "Standard"
+    ],
+    "language": "ar"
+  },
+  {
+    "id": "Cantonese_ProfessionalHost（F)",
+    "name": "Professional Female Host",
+    "tags": [
+      "Cantonese",
+      "Female",
+      "Adult",
+      "Neutral",
+      "Standard"
+    ],
+    "language": "zh"
+  },
+  {
+    "id": "Cantonese_GentleLady",
+    "name": "Gentle Lady",
+    "tags": [
+      "Cantonese",
+      "Female",
+      "Adult",
+      "Calm",
+      "Standard"
+    ],
+    "language": "zh"
+  },
+  {
+    "id": "Cantonese_ProfessionalHost（M)",
+    "name": "Professional Male Host",
+    "tags": [
+      "Cantonese",
+      "Male",
+      "Adult",
+      "Neutral",
+      "Standard"
+    ],
+    "language": "zh"
+  },
+  {
+    "id": "Cantonese_PlayfulMan",
+    "name": "Playful Man",
+    "tags": [
+      "Cantonese",
+      "Male",
+      "Adult",
+      "Soulful",
+      "Standard"
+    ],
+    "language": "zh"
+  },
+  {
+    "id": "Cantonese_CuteGirl",
+    "name": "Cute Girl",
+    "tags": [
+      "Cantonese",
+      "Female",
+      "Young Adult",
+      "Soothing",
+      "Standard"
+    ],
+    "language": "zh"
+  },
+  {
+    "id": "Cantonese_KindWoman",
+    "name": "Kind Woman",
+    "tags": [
+      "Cantonese",
+      "Female",
+      "Adult",
+      "Friendly",
+      "Standard"
+    ],
+    "language": "zh"
+  },
+  {
+    "id": "Chinese (Mandarin)_Reliable_Executive",
+    "name": "Reliable Executive",
+    "tags": [
+      "Chinese (Mandarin)",
+      "Male",
+      "Middle Age",
+      "Steady",
+      "Standard"
+    ],
+    "language": "zh"
+  },
+  {
+    "id": "Chinese (Mandarin)_News_Anchor",
+    "name": "News Anchor",
+    "tags": [
+      "Chinese (Mandarin)",
+      "Female",
+      "Middle Age",
+      "Broadcaster-like",
+      "Standard"
+    ],
+    "language": "zh"
+  },
+  {
+    "id": "Chinese (Mandarin)_Unrestrained_Young_Man",
+    "name": "Unrestrained Young Man",
+    "tags": [
+      "Chinese (Mandarin)",
+      "Male",
+      "Adult",
+      "Unrestrained",
+      "Standard"
+    ],
+    "language": "zh"
+  },
+  {
+    "id": "Chinese (Mandarin)_Mature_Woman",
+    "name": "Mature Woman",
+    "tags": [
+      "Chinese (Mandarin)",
+      "Female",
+      "Adult",
+      "Charming",
+      "Standard"
+    ],
+    "language": "zh"
+  },
+  {
+    "id": "Arrogant_Miss",
+    "name": "Arrogant Miss",
+    "tags": [
+      "Chinese (Mandarin)",
+      "Female",
+      "Adult",
+      "Arrogant",
+      "Standard"
+    ],
+    "language": "zh"
+  },
+  {
+    "id": "Chinese (Mandarin)_Kind-hearted_Antie",
+    "name": "Kind-hearted Antie",
+    "tags": [
+      "Chinese (Mandarin)",
+      "Female",
+      "Middle Age",
+      "Gentle",
+      "Standard"
+    ],
+    "language": "zh"
+  },
+  {
+    "id": "Robot_Armor",
+    "name": "Robot Armor",
+    "tags": [
+      "Chinese (Mandarin)",
+      "Male",
+      "Adult",
+      "Electronic",
+      "Standard"
+    ],
+    "language": "zh"
+  },
+  {
+    "id": "Chinese (Mandarin)_Refreshing_Young_Man",
+    "name": "Refreshing Young Man",
+    "tags": [
+      "Chinese (Mandarin)",
+      "Male",
+      "Adult",
+      "Cheerful",
+      "Standard"
+    ],
+    "language": "zh"
+  },
+  {
+    "id": "Chinese (Mandarin)_HK_Flight_Attendant",
+    "name": "HK Flight Attendant",
+    "tags": [
+      "Chinese (Mandarin)",
+      "Female",
+      "Middle Age",
+      "Polite",
+      "CN-Southern"
+    ],
+    "language": "zh"
+  },
+  {
+    "id": "Chinese (Mandarin)_Humorous_Elder",
+    "name": "Humorous Elder",
+    "tags": [
+      "Chinese (Mandarin)",
+      "Male",
+      "Senior",
+      "Refreshing",
+      "CN-Northern"
+    ],
+    "language": "zh"
+  },
+  {
+    "id": "Chinese (Mandarin)_Gentleman",
+    "name": "Gentleman",
+    "tags": [
+      "Chinese (Mandarin)",
+      "Male",
+      "Adult",
+      "Magnetic",
+      "Standard"
+    ],
+    "language": "zh"
+  },
+  {
+    "id": "Chinese (Mandarin)_Warm_Bestie",
+    "name": "Warm Bestie",
+    "tags": [
+      "Chinese (Mandarin)",
+      "Female",
+      "Adult",
+      "Crisp",
+      "Standard"
+    ],
+    "language": "zh"
+  },
+  {
+    "id": "Chinese (Mandarin)_Stubborn_Friend",
+    "name": "Stubborn Friend",
+    "tags": [
+      "Chinese (Mandarin)",
+      "Male",
+      "Adult",
+      "Uninhibited",
+      "Standard"
+    ],
+    "language": "zh"
+  },
+  {
+    "id": "Chinese (Mandarin)_Sweet_Lady",
+    "name": "Sweet Lady",
+    "tags": [
+      "Chinese (Mandarin)",
+      "Female",
+      "Adult",
+      "Tender",
+      "Standard"
+    ],
+    "language": "zh"
+  },
+  {
+    "id": "Chinese (Mandarin)_Southern_Young_Man",
+    "name": "Southern Young Man",
+    "tags": [
+      "Chinese (Mandarin)",
+      "Male",
+      "Adult",
+      "Earnest",
+      "CN-Southern"
+    ],
+    "language": "zh"
+  },
+  {
+    "id": "Chinese (Mandarin)_Wise_Women",
+    "name": "Wise Women",
+    "tags": [
+      "Chinese (Mandarin)",
+      "Female",
+      "Middle Age",
+      "Lyrical",
+      "Standard"
+    ],
+    "language": "zh"
+  },
+  {
+    "id": "Chinese (Mandarin)_Gentle_Youth",
+    "name": "Gentle Youth",
+    "tags": [
+      "Chinese (Mandarin)",
+      "Male",
+      "Adult",
+      "Gentle",
+      "Standard"
+    ],
+    "language": "zh"
+  },
+  {
+    "id": "Chinese (Mandarin)_Warm_Girl",
+    "name": "Warm Girl",
+    "tags": [
+      "Chinese (Mandarin)",
+      "Female",
+      "Young Adult",
+      "Soft",
+      "Standard"
+    ],
+    "language": "zh"
+  },
+  {
+    "id": "Chinese (Mandarin)_Male_Announcer",
+    "name": "Male Announcer",
+    "tags": [
+      "Chinese (Mandarin)",
+      "Male",
+      "Middle Age",
+      "Magnetic",
+      "Standard"
+    ],
+    "language": "zh"
+  },
+  {
+    "id": "Chinese (Mandarin)_Kind-hearted_Elder",
+    "name": "Kind-hearted Elder",
+    "tags": [
+      "Chinese (Mandarin)",
+      "Female",
+      "Senior",
+      "Kind",
+      "Standard"
+    ],
+    "language": "zh"
+  },
+  {
+    "id": "Chinese (Mandarin)_Cute_Spirit",
+    "name": "Cute Spirit",
+    "tags": [
+      "Chinese (Mandarin)",
+      "Female",
+      "Youth",
+      "Adorable",
+      "Standard"
+    ],
+    "language": "zh"
+  },
+  {
+    "id": "Chinese (Mandarin)_Radio_Host",
+    "name": "Radio Host",
+    "tags": [
+      "Chinese (Mandarin)",
+      "Male",
+      "Adult",
+      "Poetic",
+      "Standard"
+    ],
+    "language": "zh"
+  },
+  {
+    "id": "Chinese (Mandarin)_Lyrical_Voice",
+    "name": "Lyrical Voice",
+    "tags": [
+      "Chinese (Mandarin)",
+      "Male",
+      "Adult",
+      "Mellow",
+      "Standard"
+    ],
+    "language": "zh"
+  },
+  {
+    "id": "Chinese (Mandarin)_Straightforward_Boy",
+    "name": "Straightforward Boy",
+    "tags": [
+      "Chinese (Mandarin)",
+      "Male",
+      "Young Adult",
+      "Thoughtful",
+      "Standard"
+    ],
+    "language": "zh"
+  },
+  {
+    "id": "Chinese (Mandarin)_Sincere_Adult",
+    "name": "Sincere Adult",
+    "tags": [
+      "Chinese (Mandarin)",
+      "Male",
+      "Adult",
+      "Encouraging",
+      "Standard"
+    ],
+    "language": "zh"
+  },
+  {
+    "id": "Chinese (Mandarin)_Gentle_Senior",
+    "name": "Gentle Senior",
+    "tags": [
+      "Chinese (Mandarin)",
+      "Female",
+      "Adult",
+      "Cozy",
+      "Standard"
+    ],
+    "language": "zh"
+  },
+  {
+    "id": "Chinese (Mandarin)_Crisp_Girl",
+    "name": "Crisp Girl",
+    "tags": [
+      "Chinese (Mandarin)",
+      "Female",
+      "Young Adult",
+      "Warm",
+      "Standard"
+    ],
+    "language": "zh"
+  },
+  {
+    "id": "Chinese (Mandarin)_Pure-hearted_Boy",
+    "name": "Pure-hearted Boy",
+    "tags": [
+      "Chinese (Mandarin)",
+      "Male",
+      "Young Adult",
+      "Committed",
+      "Standard"
+    ],
+    "language": "zh"
+  },
+  {
+    "id": "Chinese (Mandarin)_Soft_Girl",
+    "name": "Soft Girl",
+    "tags": [
+      "Chinese (Mandarin)",
+      "Female",
+      "Adult",
+      "Welcoming",
+      "CN-Southern"
+    ],
+    "language": "zh"
+  },
+  {
+    "id": "Chinese (Mandarin)_IntellectualGirl",
+    "name": "Intellectual Girl",
+    "tags": [
+      "Chinese (Mandarin)",
+      "Female",
+      "Adult",
+      "Intellectual",
+      "Standard"
+    ],
+    "language": "zh"
+  },
+  {
+    "id": "Chinese (Mandarin)_Warm_HeartedGirl",
+    "name": "Warm-hearted Girl",
+    "tags": [
+      "Chinese (Mandarin)",
+      "Female",
+      "Adult",
+      "Warm_Hearted",
+      "Standard"
+    ],
+    "language": "zh"
+  },
+  {
+    "id": "Chinese (Mandarin)_Laid_BackGirl",
+    "name": "Laid-back Girl",
+    "tags": [
+      "Chinese (Mandarin)",
+      "Female",
+      "Adult",
+      "Laid_Back",
+      "Standard"
+    ],
+    "language": "zh"
+  },
+  {
+    "id": "Chinese (Mandarin)_ExplorativeGirl",
+    "name": "Explorative Girl",
+    "tags": [
+      "Chinese (Mandarin)",
+      "Female",
+      "Adult",
+      "Explorative",
+      "Standard"
+    ],
+    "language": "zh"
+  },
+  {
+    "id": "Chinese (Mandarin)_Warm-HeartedAunt",
+    "name": "Warm-hearted Aunt",
+    "tags": [
+      "Chinese (Mandarin)",
+      "Female",
+      "Middle Age",
+      "Kind",
+      "Standard"
+    ],
+    "language": "zh"
+  },
+  {
+    "id": "Chinese (Mandarin)_BashfulGirl",
+    "name": "Bashful Girl",
+    "tags": [
+      "Chinese (Mandarin)",
+      "Female",
+      "Youth",
+      "Bashful",
+      "Standard"
+    ],
+    "language": "zh"
+  },
+  {
+    "id": "Dutch_kindhearted_girl",
+    "name": "Kind-hearted girl",
+    "tags": [
+      "Dutch",
+      "Female",
+      "Young Adult",
+      "Warm",
+      "Standard"
+    ],
+    "language": "nl"
+  },
+  {
+    "id": "Dutch_bossy_leader",
+    "name": "Bossy leader",
+    "tags": [
+      "Dutch",
+      "Male",
+      "Adult",
+      "Serious",
+      "Standard"
+    ],
+    "language": "nl"
+  },
+  {
+    "id": "Cantonese_Narrator",
+    "name": "Narrator",
+    "tags": [
+      "Cantonese",
+      "Male",
+      "Middle Aged",
+      "Narrator",
+      "Standard"
+    ],
+    "language": "zh"
+  },
+  {
+    "id": "Cantonese_WiselProfessor",
+    "name": "Wise Professor",
+    "tags": [
+      "Cantonese",
+      "Male",
+      "Adult",
+      "Gentle",
+      "Standard"
+    ],
+    "language": "zh"
+  },
+  {
+    "id": "Cantonese_IndifferentStaff",
+    "name": "Indifferent Staff",
+    "tags": [
+      "Cantonese",
+      "Male",
+      "Adult",
+      "Convincing",
+      "Standard"
+    ],
+    "language": "zh"
+  },
+  {
+    "id": "French_Male_Speech_New",
+    "name": "Level-Headed Man",
+    "tags": [
+      "French",
+      "Male",
+      "Adult",
+      "Level-Headed",
+      "Standard"
+    ],
+    "language": "fr"
+  },
+  {
+    "id": "French_Female_News Anchor",
+    "name": "Patient Female Presenter",
+    "tags": [
+      "French",
+      "Female",
+      "Adult",
+      "Patient",
+      "Standard"
+    ],
+    "language": "fr"
+  },
+  {
+    "id": "French_CasualMan",
+    "name": "Casual Man",
+    "tags": [
+      "French",
+      "Male",
+      "Middle Age",
+      "Casual",
+      "Standard"
+    ],
+    "language": "fr"
+  },
+  {
+    "id": "French_MovieLeadFemale",
+    "name": "Movie Lead Female",
+    "tags": [
+      "French",
+      "Female",
+      "Young Adult",
+      "Film",
+      "Standard"
+    ],
+    "language": "fr"
+  },
+  {
+    "id": "French_FemaleAnchor",
+    "name": "Female Anchor",
+    "tags": [
+      "French",
+      "Female",
+      "Adult",
+      "Anchor",
+      "Standard"
+    ],
+    "language": "fr"
+  },
+  {
+    "id": "French_MaleNarrator",
+    "name": "Male Narrator",
+    "tags": [
+      "French",
+      "Male",
+      "Adult",
+      "Narrator",
+      "Standard"
+    ],
+    "language": "fr"
+  },
+  {
+    "id": "Korean_PowerfulGirl",
+    "name": "Powerful Girl",
+    "tags": [
+      "Korean",
+      "Female",
+      "Adult",
+      "Rural",
+      "Standard"
+    ],
+    "language": "ko"
+  },
+  {
+    "id": "Korean_BossyMan",
+    "name": "Bossy Man",
+    "tags": [
+      "Korean",
+      "Female",
+      "Adult",
+      "Innocent and Ethereal",
+      "Standard"
+    ],
+    "language": "ko"
+  },
+  {
+    "id": "German_FriendlyMan",
+    "name": "Friendly Man",
+    "tags": [
+      "German",
+      "Male",
+      "Middle Age",
+      "Sincere",
+      "Standard"
+    ],
+    "language": "de"
+  },
+  {
+    "id": "Spanish_FriendlyNeighbor",
+    "name": "Friendly Neighbor",
+    "tags": [
+      "Spanish",
+      "Female",
+      "Young Adult",
+      "Energetic",
+      "Standard"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "German_SweetLady",
+    "name": "Sweet Lady",
+    "tags": [
+      "German",
+      "Female",
+      "Adult",
+      "Animated",
+      "Standard"
+    ],
+    "language": "de"
+  },
+  {
+    "id": "Spanish_FragileBoy",
+    "name": "Fragile Boy",
+    "tags": [
+      "Spanish",
+      "Male",
+      "Young Adult",
+      "Gentle",
+      "Standard"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "German_PlayfulMan",
+    "name": "Playful Man",
+    "tags": [
+      "German",
+      "Male",
+      "Adult",
+      "Lively and Spirited",
+      "Standard"
+    ],
+    "language": "de"
+  },
+  {
+    "id": "Spanish_UpsetGirl",
+    "name": "Upset Girl",
+    "tags": [
+      "Spanish",
+      "Female",
+      "Young Adult",
+      "Sad",
+      "Standard"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "Spanish_Soft-spokenGirl",
+    "name": "Soft-spoken Girl",
+    "tags": [
+      "Spanish",
+      "Female",
+      "Young Adult",
+      "Serene",
+      "Standard"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "Spanish_CharmingQueen",
+    "name": "Charming Queen",
+    "tags": [
+      "Spanish",
+      "Female",
+      "Adult",
+      "Bewitching",
+      "Standard"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "Spanish_Nuttylady",
+    "name": "Nutty Lady",
+    "tags": [
+      "Spanish",
+      "Female",
+      "Middle Age",
+      "Wacky",
+      "Standard"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "Spanish_ElegantGirl",
+    "name": "Elegant Girl",
+    "tags": [
+      "Spanish",
+      "Female",
+      "Young Adult",
+      "Dramatic",
+      "Standard"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "Spanish_FascinatingBoy",
+    "name": "Fascinating Boy",
+    "tags": [
+      "Spanish",
+      "Male",
+      "Young Adult",
+      "Approachable",
+      "Standard"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "Spanish_FunnyGuy",
+    "name": "Funny Guy",
+    "tags": [
+      "Spanish",
+      "Male",
+      "Young Adult",
+      "Mischievous",
+      "Standard"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "Spanish_PlayfulSpirit",
+    "name": "Playful Spirit",
+    "tags": [
+      "Spanish",
+      "Female",
+      "Young Adult",
+      "Animated",
+      "Standard"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "Spanish_TheatricalActor",
+    "name": "Theatrical Actor",
+    "tags": [
+      "Spanish",
+      "Male",
+      "Middle Age",
+      "Robust",
+      "Standard"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "Indonesian_SweetGirl",
+    "name": "Sweet Girl",
+    "tags": [
+      "Indonesian",
+      "Female",
+      "Young Adult",
+      "Cute and Sweet",
+      "Standard"
+    ],
+    "language": "id"
+  },
+  {
+    "id": "Indonesian_ReservedYoungMan",
+    "name": "Reserved Young Man",
+    "tags": [
+      "Indonesian",
+      "Male",
+      "Young Adult",
+      "Cold and Reserved",
+      "Standard"
+    ],
+    "language": "id"
+  },
+  {
+    "id": "Indonesian_CharmingGirl",
+    "name": "Charming Girl",
+    "tags": [
+      "Indonesian",
+      "Female",
+      "Adult",
+      "Alluring",
+      "Standard"
+    ],
+    "language": "id"
+  },
+  {
+    "id": "Portuguese_AnxiousMan",
+    "name": "Anxious Man",
+    "tags": [
+      "Portuguese",
+      "Male",
+      "Middle Age",
+      "Enthusiastic",
+      "Standard"
+    ],
+    "language": "pt"
+  },
+  {
+    "id": "Indonesian_CalmWoman",
+    "name": "Calm Woman",
+    "tags": [
+      "Indonesian",
+      "Female",
+      "Young Adult",
+      "Serene",
+      "Standard"
+    ],
+    "language": "id"
+  },
+  {
+    "id": "Indonesian_ConfidentWoman",
+    "name": "Confident Woman",
+    "tags": [
+      "Indonesian",
+      "Female",
+      "Young Adult",
+      "Assertive",
+      "Standard"
+    ],
+    "language": "id"
+  },
+  {
+    "id": "Indonesian_CaringMan",
+    "name": "Caring Man",
+    "tags": [
+      "Indonesian",
+      "Male",
+      "Young Adult",
+      "Compassionate",
+      "Standard"
+    ],
+    "language": "id"
+  },
+  {
+    "id": "Indonesian_BossyLeader",
+    "name": "Bossy Leader",
+    "tags": [
+      "Indonesian",
+      "Male",
+      "Adult",
+      "Calm and Authoritative",
+      "Standard"
+    ],
+    "language": "id"
+  },
+  {
+    "id": "Indonesian_DeterminedBoy",
+    "name": "Determined Boy",
+    "tags": [
+      "Indonesian",
+      "Male",
+      "Young Adult",
+      "Mature and Resolute",
+      "Standard"
+    ],
+    "language": "id"
+  },
+  {
+    "id": "Indonesian_GentleGirl",
+    "name": "Gentle Girl",
+    "tags": [
+      "Indonesian",
+      "Female",
+      "Young Adult",
+      "Soft-spoken",
+      "Standard"
+    ],
+    "language": "id"
+  },
+  {
+    "id": "Portuguese_Matureresearcher",
+    "name": "Mature Researcher",
+    "tags": [
+      "Portuguese",
+      "Male",
+      "Middle Age",
+      "Comforting",
+      "Standard"
+    ],
+    "language": "pt"
+  },
+  {
+    "id": "Portuguese_Optimisticyouth",
+    "name": "Optimistic youth",
+    "tags": [
+      "Portuguese",
+      "Male",
+      "Young Adult",
+      "High energy",
+      "Standard"
+    ],
+    "language": "pt"
+  },
+  {
+    "id": "Portuguese_CuteElf",
+    "name": "Cute Elf",
+    "tags": [
+      "Portuguese",
+      "Female",
+      "Young Adult",
+      "Lively",
+      "Standard"
+    ],
+    "language": "pt"
+  },
+  {
+    "id": "Portuguese_EnergeticGirl",
+    "name": "Energetic Girl",
+    "tags": [
+      "Portuguese",
+      "Female",
+      "Young Adult",
+      "Cheerful",
+      "Standard"
+    ],
+    "language": "pt"
+  },
+  {
+    "id": "Portuguese_FunnyGuy",
+    "name": "Funny Guy",
+    "tags": [
+      "Portuguese",
+      "Male",
+      "Young Adult",
+      "Mischievous",
+      "Standard"
+    ],
+    "language": "pt"
+  },
+  {
+    "id": "Portuguese_Nuttylady",
+    "name": "Nutty Lady",
+    "tags": [
+      "Portuguese",
+      "Female",
+      "Middle Age",
+      "Wacky",
+      "Standard"
+    ],
+    "language": "pt"
+  },
+  {
+    "id": "Portuguese_Deep-tonedMan",
+    "name": "Deep-toned Man",
+    "tags": [
+      "Portuguese",
+      "Male",
+      "Middle Age",
+      "Charismatic",
+      "Standard"
+    ],
+    "language": "pt"
+  },
+  {
+    "id": "Italian_BraveHeroine",
+    "name": "Brave Heroine",
+    "tags": [
+      "Italian",
+      "Female",
+      "Middle Age",
+      "Calm",
+      "Standard"
+    ],
+    "language": "it"
+  },
+  {
+    "id": "French_Female Journalist",
+    "name": "Fluent Female Broadcaster",
+    "tags": [
+      "French",
+      "Female",
+      "Adult",
+      "Fluent",
+      "Standard"
+    ],
+    "language": "fr"
+  },
+  {
+    "id": "Italian_Narrator",
+    "name": "Narrator",
+    "tags": [
+      "Italian",
+      "Male",
+      "Middle Age",
+      "Narrator",
+      "Standard"
+    ],
+    "language": "it"
+  },
+  {
+    "id": "French_Female_Speech_New",
+    "name": "Persuasive Female Speaker",
+    "tags": [
+      "French",
+      "Female",
+      "Adult",
+      "Persuasive",
+      "Standard"
+    ],
+    "language": "fr"
+  },
+  {
+    "id": "Italian_WanderingSorcerer",
+    "name": "Wandering Sorcerer",
+    "tags": [
+      "Italian",
+      "Female",
+      "Adult",
+      "Ruthless",
+      "Standard"
+    ],
+    "language": "it"
+  },
+  {
+    "id": "Italian_DiligentLeader",
+    "name": "Diligent Leader",
+    "tags": [
+      "Italian",
+      "Female",
+      "Adult",
+      "Calm",
+      "Standard"
+    ],
+    "language": "it"
+  },
+  {
+    "id": "Japanese_IntellectualSenior",
+    "name": "Intellectual Senior",
+    "tags": [
+      "Japanese",
+      "Male",
+      "Young Adult",
+      "Mature",
+      "Standard"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "Japanese_DecisivePrincess",
+    "name": "Decisive Princess",
+    "tags": [
+      "Japanese",
+      "Female",
+      "Adult",
+      "Firm",
+      "Standard"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "Japanese_LoyalKnight",
+    "name": "Loyal Knight",
+    "tags": [
+      "Japanese",
+      "Male",
+      "Adult",
+      "Youthful",
+      "Standard"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "Japanese_DominantMan",
+    "name": "Dominant Man",
+    "tags": [
+      "Japanese",
+      "Male",
+      "Middle Age",
+      "Mature",
+      "Standard"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "Japanese_SeriousCommander",
+    "name": "Serious Commander",
+    "tags": [
+      "Japanese",
+      "Male",
+      "Adult",
+      "Reliable",
+      "Standard"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "Japanese_ColdQueen",
+    "name": "Cold Queen",
+    "tags": [
+      "Japanese",
+      "Female",
+      "Adult",
+      "Distant",
+      "Standard"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "Japanese_DependableWoman",
+    "name": "Dependable Woman",
+    "tags": [
+      "Japanese",
+      "Female",
+      "Adult",
+      "Steady",
+      "Standard"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "Japanese_GentleButler",
+    "name": "Gentle Butler",
+    "tags": [
+      "Japanese",
+      "Male",
+      "Adult",
+      "Charming",
+      "Standard"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "Japanese_KindLady",
+    "name": "Kind Lady",
+    "tags": [
+      "Japanese",
+      "Female",
+      "Adult",
+      "Charming",
+      "Standard"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "Japanese_CalmLady",
+    "name": "Calm Lady",
+    "tags": [
+      "Japanese",
+      "Female",
+      "Adult",
+      "Charming",
+      "Standard"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "Japanese_OptimisticYouth",
+    "name": "Optimistic Youth",
+    "tags": [
+      "Japanese",
+      "Male",
+      "Adult",
+      "Cheerful",
+      "Standard"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "Japanese_GenerousIzakayaOwner",
+    "name": "Generous Izakaya Owner",
+    "tags": [
+      "Japanese",
+      "Male",
+      "Middle Age",
+      "Playful",
+      "Standard"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "Japanese_SportyStudent",
+    "name": "Sporty Student",
+    "tags": [
+      "Japanese",
+      "Male",
+      "Adult",
+      "Inviting",
+      "Standard"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "Japanese_InnocentBoy",
+    "name": "Innocent Boy",
+    "tags": [
+      "Japanese",
+      "Male",
+      "Adult",
+      "Inviting",
+      "Standard"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "Japanese_GracefulMaiden",
+    "name": "Graceful Maiden",
+    "tags": [
+      "Japanese",
+      "Female",
+      "Adult",
+      "Sweet",
+      "Standard"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "Korean_SweetGirl",
+    "name": "Sweet Girl",
+    "tags": [
+      "Korean",
+      "Female",
+      "Middle Age",
+      "Soothing and Gentle",
+      "Standard"
+    ],
+    "language": "ko"
+  },
+  {
+    "id": "Korean_CheerfulBoyfriend",
+    "name": "Cheerful Boyfriend",
+    "tags": [
+      "Korean",
+      "Male",
+      "Middle Age",
+      "Sharp and Intense",
+      "Standard"
+    ],
+    "language": "ko"
+  },
+  {
+    "id": "Korean_EnchantingSister",
+    "name": "Enchanting Sister",
+    "tags": [
+      "Korean",
+      "Female",
+      "Young Adult",
+      "Desirable and Charming",
+      "Standard"
+    ],
+    "language": "ko"
+  },
+  {
+    "id": "Korean_ShyGirl",
+    "name": "Shy Girl",
+    "tags": [
+      "Korean",
+      "Female",
+      "Young Adult",
+      "Timid and Introverted",
+      "Standard"
+    ],
+    "language": "ko"
+  },
+  {
+    "id": "Korean_ReliableSister",
+    "name": "Reliable Sister",
+    "tags": [
+      "Korean",
+      "Female",
+      "Middle Age",
+      "Powerful and Authoritative",
+      "Standard"
+    ],
+    "language": "ko"
+  },
+  {
+    "id": "Korean_StrictBoss",
+    "name": "Strict Boss",
+    "tags": [
+      "Korean",
+      "Male",
+      "Middle Age",
+      "Stern",
+      "Standard"
+    ],
+    "language": "ko"
+  },
+  {
+    "id": "Korean_SassyGirl",
+    "name": "Sassy Girl",
+    "tags": [
+      "Korean",
+      "Male",
+      "Youth",
+      "Gentle",
+      "Standard"
+    ],
+    "language": "ko"
+  },
+  {
+    "id": "Korean_ChildhoodFriendGirl",
+    "name": "Childhood Friend Girl",
+    "tags": [
+      "Korean",
+      "Female",
+      "Young Adult",
+      "Polite and Reserved",
+      "Standard"
+    ],
+    "language": "ko"
+  },
+  {
+    "id": "Korean_PlayboyCharmer",
+    "name": "Playboy Charmer",
+    "tags": [
+      "Korean",
+      "Male",
+      "Young Adult",
+      "Seductive",
+      "Standard"
+    ],
+    "language": "ko"
+  },
+  {
+    "id": "Korean_ElegantPrincess",
+    "name": "Elegant Princess",
+    "tags": [
+      "Korean",
+      "Female",
+      "Adult",
+      "Graceful and Refined",
+      "Standard"
+    ],
+    "language": "ko"
+  },
+  {
+    "id": "Korean_BraveFemaleWarrior",
+    "name": "Brave Female Warrior",
+    "tags": [
+      "Korean",
+      "Female",
+      "Young Adult",
+      "Resolute",
+      "Standard"
+    ],
+    "language": "ko"
+  },
+  {
+    "id": "Korean_BraveYouth",
+    "name": "Brave Youth",
+    "tags": [
+      "Korean",
+      "Male",
+      "Young Adult",
+      "Powerful",
+      "Standard"
+    ],
+    "language": "ko"
+  },
+  {
+    "id": "Korean_CalmLady",
+    "name": "Calm Lady",
+    "tags": [
+      "Korean",
+      "Female",
+      "Young Adult",
+      "Resilient and Determined",
+      "Standard"
+    ],
+    "language": "ko"
+  },
+  {
+    "id": "Korean_EnthusiasticTeen",
+    "name": "Enthusiastic Teen",
+    "tags": [
+      "Korean",
+      "Male",
+      "Young Adult",
+      "Passionate and Lively",
+      "Standard"
+    ],
+    "language": "ko"
+  },
+  {
+    "id": "Korean_SoothingLady",
+    "name": "Soothing Lady",
+    "tags": [
+      "Korean",
+      "Female",
+      "Middle Age",
+      "Alluring",
+      "Standard"
+    ],
+    "language": "ko"
+  },
+  {
+    "id": "Korean_IntellectualSenior",
+    "name": "Intellectual Senior",
+    "tags": [
+      "Korean",
+      "Male",
+      "Young Adult",
+      "Magnetic",
+      "Standard"
+    ],
+    "language": "ko"
+  },
+  {
+    "id": "Korean_LonelyWarrior",
+    "name": "Lonely Warrior",
+    "tags": [
+      "Korean",
+      "Male",
+      "Adult",
+      "Youthful and Daring",
+      "Standard"
+    ],
+    "language": "ko"
+  },
+  {
+    "id": "Korean_MatureLady",
+    "name": "Mature Lady",
+    "tags": [
+      "Korean",
+      "Female",
+      "Middle Age",
+      "Refined and Elegant",
+      "Standard"
+    ],
+    "language": "ko"
+  },
+  {
+    "id": "Korean_InnocentBoy",
+    "name": "Innocent Boy",
+    "tags": [
+      "Korean",
+      "Male",
+      "Young Adult",
+      "Naive and Pure",
+      "Standard"
+    ],
+    "language": "ko"
+  },
+  {
+    "id": "Korean_CharmingSister",
+    "name": "Charming Sister",
+    "tags": [
+      "Korean",
+      "Female",
+      "Middle Age",
+      "Seductive",
+      "Standard"
+    ],
+    "language": "ko"
+  },
+  {
+    "id": "Korean_AthleticStudent",
+    "name": "Athletic Student",
+    "tags": [
+      "Korean",
+      "Male",
+      "Young Adult",
+      "Energetic",
+      "Standard"
+    ],
+    "language": "ko"
+  },
+  {
+    "id": "Korean_BraveAdventurer",
+    "name": "Brave Adventurer",
+    "tags": [
+      "Korean",
+      "Female",
+      "Adult",
+      "Playful and Adventurous",
+      "Standard"
+    ],
+    "language": "ko"
+  },
+  {
+    "id": "Korean_CalmGentleman",
+    "name": "Calm Gentleman",
+    "tags": [
+      "Korean",
+      "Male",
+      "Middle Age",
+      "Composed",
+      "Standard"
+    ],
+    "language": "ko"
+  },
+  {
+    "id": "Korean_WiseElf",
+    "name": "Wise Elf",
+    "tags": [
+      "Korean",
+      "Female",
+      "Young Adult",
+      "Sweet and Ethereal",
+      "Standard"
+    ],
+    "language": "ko"
+  },
+  {
+    "id": "Korean_CheerfulCoolJunior",
+    "name": "Cheerful Cool Junior",
+    "tags": [
+      "Korean",
+      "Male",
+      "Adult",
+      "Energetic and Spirited",
+      "Standard"
+    ],
+    "language": "ko"
+  },
+  {
+    "id": "Korean_DecisiveQueen",
+    "name": "Decisive Queen",
+    "tags": [
+      "Korean",
+      "Female",
+      "Young Adult",
+      "Sweet and Resolute",
+      "Standard"
+    ],
+    "language": "ko"
+  },
+  {
+    "id": "Korean_ColdYoungMan",
+    "name": "Cold Young Man",
+    "tags": [
+      "Korean",
+      "Male",
+      "Adult",
+      "Cold and Composed",
+      "Standard"
+    ],
+    "language": "ko"
+  },
+  {
+    "id": "Korean_MysteriousGirl",
+    "name": "Mysterious Girl",
+    "tags": [
+      "Korean",
+      "Female",
+      "Youth",
+      "Energetic and Lively",
+      "Standard"
+    ],
+    "language": "ko"
+  },
+  {
+    "id": "Korean_QuirkyGirl",
+    "name": "Quirky Girl",
+    "tags": [
+      "Korean",
+      "Female",
+      "Youth",
+      "Adorable and Quirky",
+      "Standard"
+    ],
+    "language": "ko"
+  },
+  {
+    "id": "Korean_ConsiderateSenior",
+    "name": "Considerate Senior",
+    "tags": [
+      "Korean",
+      "Male",
+      "Young Adult",
+      "Gentle and Mature",
+      "Standard"
+    ],
+    "language": "ko"
+  },
+  {
+    "id": "Korean_CheerfulLittleSister",
+    "name": "Cheerful Little Sister",
+    "tags": [
+      "Korean",
+      "Female",
+      "Adult",
+      "Energetic and Lively",
+      "Standard"
+    ],
+    "language": "ko"
+  },
+  {
+    "id": "Korean_DominantMan",
+    "name": "Dominant Man",
+    "tags": [
+      "Korean",
+      "Male",
+      "Adult",
+      "Mature and Authoritative",
+      "Standard"
+    ],
+    "language": "ko"
+  },
+  {
+    "id": "Korean_AirheadedGirl",
+    "name": "Airheaded Girl",
+    "tags": [
+      "Korean",
+      "Female",
+      "Adult",
+      "Cool and Composed",
+      "Standard"
+    ],
+    "language": "ko"
+  },
+  {
+    "id": "Korean_ReliableYouth",
+    "name": "Reliable Youth",
+    "tags": [
+      "Korean",
+      "Male",
+      "Young Adult",
+      "Gentle and Considerate",
+      "Standard"
+    ],
+    "language": "ko"
+  },
+  {
+    "id": "Korean_FriendlyBigSister",
+    "name": "Friendly Big Sister",
+    "tags": [
+      "Korean",
+      "Female",
+      "Middle Age",
+      "Charismatic and Alluring",
+      "Standard"
+    ],
+    "language": "ko"
+  },
+  {
+    "id": "Korean_GentleBoss",
+    "name": "Gentle Boss",
+    "tags": [
+      "Korean",
+      "Male",
+      "Middle Age",
+      "Regal and Refined",
+      "Standard"
+    ],
+    "language": "ko"
+  },
+  {
+    "id": "Korean_ColdGirl",
+    "name": "Cold Girl",
+    "tags": [
+      "Korean",
+      "Female",
+      "Adult",
+      "Aloof",
+      "Standard"
+    ],
+    "language": "ko"
+  },
+  {
+    "id": "Korean_HaughtyLady",
+    "name": "Haughty Lady",
+    "tags": [
+      "Korean",
+      "Female",
+      "Young Adult",
+      "Cold and Distant",
+      "Standard"
+    ],
+    "language": "ko"
+  },
+  {
+    "id": "Korean_CharmingElderSister",
+    "name": "Charming Elder Sister",
+    "tags": [
+      "Korean",
+      "Female",
+      "Middle Age",
+      "Playful and Mischievous",
+      "Standard"
+    ],
+    "language": "ko"
+  },
+  {
+    "id": "Korean_IntellectualMan",
+    "name": "Intellectual Man",
+    "tags": [
+      "Korean",
+      "Male",
+      "Middle Age",
+      "Combative",
+      "Standard"
+    ],
+    "language": "ko"
+  },
+  {
+    "id": "Korean_CaringWoman",
+    "name": "Caring Woman",
+    "tags": [
+      "Korean",
+      "Female",
+      "Young Adult",
+      "Lively and Vibrant",
+      "Standard"
+    ],
+    "language": "ko"
+  },
+  {
+    "id": "Korean_WiseTeacher",
+    "name": "Wise Teacher",
+    "tags": [
+      "Korean",
+      "Male",
+      "Middle Age",
+      "Sagacious",
+      "Standard"
+    ],
+    "language": "ko"
+  },
+  {
+    "id": "Korean_ConfidentBoss",
+    "name": "Confident Boss",
+    "tags": [
+      "Korean",
+      "Male",
+      "Middle Age",
+      "Deep and Commanding",
+      "Standard"
+    ],
+    "language": "ko"
+  },
+  {
+    "id": "Korean_AthleticGirl",
+    "name": "Athletic Girl",
+    "tags": [
+      "Korean",
+      "Female",
+      "Youth",
+      "Robust and Athletic",
+      "Standard"
+    ],
+    "language": "ko"
+  },
+  {
+    "id": "Korean_PossessiveMan",
+    "name": "Possessive Man",
+    "tags": [
+      "Korean",
+      "Male",
+      "Middle Age",
+      "Powerful and Authoritative",
+      "Standard"
+    ],
+    "language": "ko"
+  },
+  {
+    "id": "Korean_GentleWoman",
+    "name": "Gentle Woman",
+    "tags": [
+      "Korean",
+      "Female",
+      "Young Adult",
+      "Strong-willed",
+      "Standard"
+    ],
+    "language": "ko"
+  },
+  {
+    "id": "Korean_CockyGuy",
+    "name": "Cocky Guy",
+    "tags": [
+      "Korean",
+      "Male",
+      "Young Adult",
+      "Playful and Mischievous",
+      "Standard"
+    ],
+    "language": "ko"
+  },
+  {
+    "id": "Korean_ThoughtfulWoman",
+    "name": "Thoughtful Woman",
+    "tags": [
+      "Korean",
+      "Female",
+      "Young Adult",
+      "Mature and Contemplative",
+      "Standard"
+    ],
+    "language": "ko"
+  },
+  {
+    "id": "Korean_OptimisticYouth",
+    "name": "Optimistic Youth",
+    "tags": [
+      "Korean",
+      "Male",
+      "Young Adult",
+      "Cheerful",
+      "Standard"
+    ],
+    "language": "ko"
+  },
+  {
+    "id": "Portuguese_SentimentalLady",
+    "name": "Sentimental Lady",
+    "tags": [
+      "Portuguese",
+      "Female",
+      "Young Adult",
+      "Elegant",
+      "Standard"
+    ],
+    "language": "pt"
+  },
+  {
+    "id": "Portuguese_BossyLeader",
+    "name": "Bossy Leader",
+    "tags": [
+      "Portuguese",
+      "Male",
+      "Adult",
+      "Calm and Formal",
+      "Standard"
+    ],
+    "language": "pt"
+  },
+  {
+    "id": "Portuguese_Wiselady",
+    "name": "Wise lady",
+    "tags": [
+      "Portuguese",
+      "Female",
+      "Middle Age",
+      "Smooth",
+      "Standard"
+    ],
+    "language": "pt"
+  },
+  {
+    "id": "Portuguese_Strong-WilledBoy",
+    "name": "Strong-willed Boy",
+    "tags": [
+      "Portuguese",
+      "Male",
+      "Young Adult",
+      "Mature",
+      "Standard"
+    ],
+    "language": "pt"
+  },
+  {
+    "id": "Portuguese_Deep-VoicedGentleman",
+    "name": "Deep-voiced Gentleman",
+    "tags": [
+      "Portuguese",
+      "Male",
+      "Adult",
+      "Deep-voiced",
+      "Standard"
+    ],
+    "language": "pt"
+  },
+  {
+    "id": "Portuguese_UpsetGirl",
+    "name": "Upset Girl",
+    "tags": [
+      "Portuguese",
+      "Female",
+      "Young Adult",
+      "Sad",
+      "Standard"
+    ],
+    "language": "pt"
+  },
+  {
+    "id": "Portuguese_PassionateWarrior",
+    "name": "Passionate Warrior",
+    "tags": [
+      "Portuguese",
+      "Male",
+      "Young Adult",
+      "Energetic",
+      "Standard"
+    ],
+    "language": "pt"
+  },
+  {
+    "id": "Portuguese_AnimeCharacter",
+    "name": "Anime Character",
+    "tags": [
+      "Portuguese",
+      "Female",
+      "Middle Age",
+      "Animated",
+      "Standard"
+    ],
+    "language": "pt"
+  },
+  {
+    "id": "Portuguese_ConfidentWoman",
+    "name": "Confident Woman",
+    "tags": [
+      "Portuguese",
+      "Female",
+      "Young Adult",
+      "Clear and firm",
+      "Standard"
+    ],
+    "language": "pt"
+  },
+  {
+    "id": "Portuguese_AngryMan",
+    "name": "Angry Man",
+    "tags": [
+      "Portuguese",
+      "Male",
+      "Young Adult",
+      "Serious",
+      "Standard"
+    ],
+    "language": "pt"
+  },
+  {
+    "id": "Portuguese_CaptivatingStoryteller",
+    "name": "Captivating Storyteller",
+    "tags": [
+      "Portuguese",
+      "Male",
+      "Middle Age",
+      "Narrator",
+      "Standard"
+    ],
+    "language": "pt"
+  },
+  {
+    "id": "Portuguese_Godfather",
+    "name": "Godfather",
+    "tags": [
+      "Portuguese",
+      "Male",
+      "Middle Age",
+      "Serious",
+      "Standard"
+    ],
+    "language": "pt"
+  },
+  {
+    "id": "Portuguese_ReservedYoungMan",
+    "name": "Reserved Young Man",
+    "tags": [
+      "Portuguese",
+      "Male",
+      "Young Adult",
+      "Cold and calm",
+      "Standard"
+    ],
+    "language": "pt"
+  },
+  {
+    "id": "Portuguese_SmartYoungGirl",
+    "name": "Smart Young Girl",
+    "tags": [
+      "Portuguese",
+      "Female",
+      "Youth",
+      "Inteligente",
+      "Standard"
+    ],
+    "language": "pt"
+  },
+  {
+    "id": "Portuguese_Kind-heartedGirl",
+    "name": "Kind-hearted Girl",
+    "tags": [
+      "Portuguese",
+      "Female",
+      "Young Adult",
+      "Calm",
+      "Standard"
+    ],
+    "language": "pt"
+  },
+  {
+    "id": "Portuguese_Pompouslady",
+    "name": "Pompous lady",
+    "tags": [
+      "Portuguese",
+      "Female",
+      "Young Adult",
+      "Cartoon",
+      "Standard"
+    ],
+    "language": "pt"
+  },
+  {
+    "id": "Portuguese_Grinch",
+    "name": "Grinch",
+    "tags": [
+      "Portuguese",
+      "Male",
+      "Adult",
+      "Cunning",
+      "Standard"
+    ],
+    "language": "pt"
+  },
+  {
+    "id": "Portuguese_Debator",
+    "name": "Debator",
+    "tags": [
+      "Portuguese",
+      "Male",
+      "Middle Age",
+      "Tough",
+      "Standard"
+    ],
+    "language": "pt"
+  },
+  {
+    "id": "Portuguese_SweetGirl",
+    "name": "Sweet Girl",
+    "tags": [
+      "Portuguese",
+      "Female",
+      "Young Adult",
+      "Adorable",
+      "Standard"
+    ],
+    "language": "pt"
+  },
+  {
+    "id": "Portuguese_AttractiveGirl",
+    "name": "Attractive Girl",
+    "tags": [
+      "Portuguese",
+      "Female",
+      "Adult",
+      "Alluring",
+      "Standard"
+    ],
+    "language": "pt"
+  },
+  {
+    "id": "Portuguese_ThoughtfulMan",
+    "name": "Thoughtful Man",
+    "tags": [
+      "Portuguese",
+      "Male",
+      "Young Adult",
+      "Gentle",
+      "Standard"
+    ],
+    "language": "pt"
+  },
+  {
+    "id": "Portuguese_PlayfulGirl",
+    "name": "Playful Girl",
+    "tags": [
+      "Portuguese",
+      "Female",
+      "Youth",
+      "Cutesy",
+      "Standard"
+    ],
+    "language": "pt"
+  },
+  {
+    "id": "Portuguese_GorgeousLady",
+    "name": "Gorgeous Lady",
+    "tags": [
+      "Portuguese",
+      "Female",
+      "Adult",
+      "Playful",
+      "Standard"
+    ],
+    "language": "pt"
+  },
+  {
+    "id": "Portuguese_LovelyLady",
+    "name": "Lovely Lady",
+    "tags": [
+      "Portuguese",
+      "Female",
+      "Adult",
+      "Charismatic",
+      "Standard"
+    ],
+    "language": "pt"
+  },
+  {
+    "id": "Portuguese_SereneWoman",
+    "name": "Serene Woman",
+    "tags": [
+      "Portuguese",
+      "Female",
+      "Young Adult",
+      "Calm",
+      "Standard"
+    ],
+    "language": "pt"
+  },
+  {
+    "id": "Portuguese_SadTeen",
+    "name": "Sad Teen",
+    "tags": [
+      "Portuguese",
+      "Male",
+      "Young Adult",
+      "Frustrated",
+      "Standard"
+    ],
+    "language": "pt"
+  },
+  {
+    "id": "Portuguese_MaturePartner",
+    "name": "Mature Partner",
+    "tags": [
+      "Portuguese",
+      "Male",
+      "Middle Age",
+      "Mature",
+      "Standard"
+    ],
+    "language": "pt"
+  },
+  {
+    "id": "Portuguese_Comedian",
+    "name": "Comedian",
+    "tags": [
+      "Portuguese",
+      "Male",
+      "Young Adult",
+      "Humor",
+      "Standard"
+    ],
+    "language": "pt"
+  },
+  {
+    "id": "Portuguese_NaughtySchoolgirl",
+    "name": "Naughty Schoolgirl",
+    "tags": [
+      "Portuguese",
+      "Female",
+      "Young Adult",
+      "Inviting",
+      "Standard"
+    ],
+    "language": "pt"
+  },
+  {
+    "id": "Portuguese_Narrator",
+    "name": "Narrator",
+    "tags": [
+      "Portuguese",
+      "Female",
+      "Middle Age",
+      "Storytelling",
+      "Standard"
+    ],
+    "language": "pt"
+  },
+  {
+    "id": "Portuguese_ToughBoss",
+    "name": "Tough Boss",
+    "tags": [
+      "Portuguese",
+      "Female",
+      "Middle Age",
+      "Mature",
+      "Standard"
+    ],
+    "language": "pt"
+  },
+  {
+    "id": "Portuguese_Fussyhostess",
+    "name": "Fussy hostess",
+    "tags": [
+      "Portuguese",
+      "Female",
+      "Middle Age",
+      "Intense",
+      "Standard"
+    ],
+    "language": "pt"
+  },
+  {
+    "id": "Portuguese_Dramatist",
+    "name": "Dramatist",
+    "tags": [
+      "Portuguese",
+      "Male",
+      "Middle Age",
+      "Quirky",
+      "Standard"
+    ],
+    "language": "pt"
+  },
+  {
+    "id": "Portuguese_Steadymentor",
+    "name": "Steady Mentor",
+    "tags": [
+      "Portuguese",
+      "Male",
+      "Young Adult",
+      "Arrogant",
+      "Standard"
+    ],
+    "language": "pt"
+  },
+  {
+    "id": "Portuguese_Jovialman",
+    "name": "Jovial Man",
+    "tags": [
+      "Portuguese",
+      "Male",
+      "Middle Age",
+      "Laugh",
+      "Standard"
+    ],
+    "language": "pt"
+  },
+  {
+    "id": "Portuguese_CharmingQueen",
+    "name": "Charming Queen",
+    "tags": [
+      "Portuguese",
+      "Female",
+      "Adult",
+      "Bewitching",
+      "Standard"
+    ],
+    "language": "pt"
+  },
+  {
+    "id": "Portuguese_SantaClaus",
+    "name": "Santa Claus",
+    "tags": [
+      "Portuguese",
+      "Male",
+      "Middle Age",
+      "Joyful",
+      "Standard"
+    ],
+    "language": "pt"
+  },
+  {
+    "id": "Portuguese_Rudolph",
+    "name": "Rudolph",
+    "tags": [
+      "Portuguese",
+      "Female",
+      "Young Adult",
+      "Naive",
+      "Standard"
+    ],
+    "language": "pt"
+  },
+  {
+    "id": "Portuguese_Arnold",
+    "name": "Arnold",
+    "tags": [
+      "Portuguese",
+      "Male",
+      "Adult",
+      "Steady",
+      "Standard"
+    ],
+    "language": "pt"
+  },
+  {
+    "id": "Portuguese_CharmingSanta",
+    "name": "Charming Santa",
+    "tags": [
+      "Portuguese",
+      "Male",
+      "Middle Age",
+      "Attractive",
+      "Standard"
+    ],
+    "language": "pt"
+  },
+  {
+    "id": "Portuguese_CharmingLady",
+    "name": "Charming Lady",
+    "tags": [
+      "Portuguese",
+      "Female",
+      "Adult",
+      "Charming",
+      "Standard"
+    ],
+    "language": "pt"
+  },
+  {
+    "id": "Portuguese_Ghost",
+    "name": "Ghost",
+    "tags": [
+      "Portuguese",
+      "Male",
+      "Adult",
+      "Sensual",
+      "Standard"
+    ],
+    "language": "pt"
+  },
+  {
+    "id": "Portuguese_HumorousElder",
+    "name": "Humorous Elder",
+    "tags": [
+      "Portuguese",
+      "Male",
+      "Middle Age",
+      "Wacky",
+      "Standard"
+    ],
+    "language": "pt"
+  },
+  {
+    "id": "Portuguese_CalmLeader",
+    "name": "Calm Leader",
+    "tags": [
+      "Portuguese",
+      "Male",
+      "Middle Age",
+      "Composed",
+      "Standard"
+    ],
+    "language": "pt"
+  },
+  {
+    "id": "Portuguese_GentleTeacher",
+    "name": "Gentle Teacher",
+    "tags": [
+      "Portuguese",
+      "Male",
+      "Adult",
+      "Mild",
+      "Standard"
+    ],
+    "language": "pt"
+  },
+  {
+    "id": "Portuguese_EnergeticBoy",
+    "name": "Energetic Boy",
+    "tags": [
+      "Portuguese",
+      "Male",
+      "Young Adult",
+      "Cheerful",
+      "Standard"
+    ],
+    "language": "pt"
+  },
+  {
+    "id": "Portuguese_ReliableMan",
+    "name": "Reliable Man",
+    "tags": [
+      "Portuguese",
+      "Male",
+      "Adult",
+      "Steady",
+      "Standard"
+    ],
+    "language": "pt"
+  },
+  {
+    "id": "Portuguese_SereneElder",
+    "name": "Serene Elder",
+    "tags": [
+      "Portuguese",
+      "Male",
+      "Middle Age",
+      "Reflective",
+      "Standard"
+    ],
+    "language": "pt"
+  },
+  {
+    "id": "Portuguese_GrimReaper",
+    "name": "Grim Reaper",
+    "tags": [
+      "Portuguese",
+      "Male",
+      "Adult",
+      "Sinister",
+      "Standard"
+    ],
+    "language": "pt"
+  },
+  {
+    "id": "Portuguese_AssertiveQueen",
+    "name": "Assertive Queen",
+    "tags": [
+      "Portuguese",
+      "Female",
+      "Young Adult",
+      "Firm",
+      "Standard"
+    ],
+    "language": "pt"
+  },
+  {
+    "id": "Portuguese_WhimsicalGirl",
+    "name": "Whimsical Girl",
+    "tags": [
+      "Portuguese",
+      "Female",
+      "Young Adult",
+      "Lovely",
+      "Standard"
+    ],
+    "language": "pt"
+  },
+  {
+    "id": "Portuguese_StressedLady",
+    "name": "Stressed Lady",
+    "tags": [
+      "Portuguese",
+      "Female",
+      "Middle Age",
+      "Unsure",
+      "Standard"
+    ],
+    "language": "pt"
+  },
+  {
+    "id": "Portuguese_FriendlyNeighbor",
+    "name": "Friendly Neighbor",
+    "tags": [
+      "Portuguese",
+      "Female",
+      "Young Adult",
+      "Energetic",
+      "Standard"
+    ],
+    "language": "pt"
+  },
+  {
+    "id": "Portuguese_CaringGirlfriend",
+    "name": "Caring Girlfriend",
+    "tags": [
+      "Portuguese",
+      "Female",
+      "Middle Age",
+      "Dreamy",
+      "Standard"
+    ],
+    "language": "pt"
+  },
+  {
+    "id": "Portuguese_PowerfulSoldier",
+    "name": "Powerful Soldier",
+    "tags": [
+      "Portuguese",
+      "Male",
+      "Young Adult",
+      "Youthful and Bold",
+      "Standard"
+    ],
+    "language": "pt"
+  },
+  {
+    "id": "Portuguese_FascinatingBoy",
+    "name": "Fascinating Boy",
+    "tags": [
+      "Portuguese",
+      "Male",
+      "Young Adult",
+      "Approachable",
+      "Standard"
+    ],
+    "language": "pt"
+  },
+  {
+    "id": "Portuguese_RomanticHusband",
+    "name": "Romantic Husband",
+    "tags": [
+      "Portuguese",
+      "Male",
+      "Middle Age",
+      "Emotional",
+      "Standard"
+    ],
+    "language": "pt"
+  },
+  {
+    "id": "Portuguese_StrictBoss",
+    "name": "Strict Boss",
+    "tags": [
+      "Portuguese",
+      "Female",
+      "Young Adult",
+      "Robotic",
+      "Standard"
+    ],
+    "language": "pt"
+  },
+  {
+    "id": "Portuguese_InspiringLady",
+    "name": "Inspiring Lady",
+    "tags": [
+      "Portuguese",
+      "Female",
+      "Young Adult",
+      "Commanding",
+      "Standard"
+    ],
+    "language": "pt"
+  },
+  {
+    "id": "Portuguese_PlayfulSpirit",
+    "name": "Playful Spirit",
+    "tags": [
+      "Portuguese",
+      "Female",
+      "Young Adult",
+      "Animated",
+      "Standard"
+    ],
+    "language": "pt"
+  },
+  {
+    "id": "Portuguese_ElegantGirl",
+    "name": "Elegant Girl",
+    "tags": [
+      "Portuguese",
+      "Female",
+      "Young Adult",
+      "Dramatic",
+      "Standard"
+    ],
+    "language": "pt"
+  },
+  {
+    "id": "Portuguese_CompellingGirl",
+    "name": "Compelling Girl",
+    "tags": [
+      "Portuguese",
+      "Female",
+      "Young Adult",
+      "Persuasive",
+      "Standard"
+    ],
+    "language": "pt"
+  },
+  {
+    "id": "Portuguese_PowerfulVeteran",
+    "name": "Powerful Veteran",
+    "tags": [
+      "Portuguese",
+      "Male",
+      "Middle Age",
+      "Strong",
+      "Standard"
+    ],
+    "language": "pt"
+  },
+  {
+    "id": "Portuguese_SensibleManager",
+    "name": "Sensible Manager",
+    "tags": [
+      "Portuguese",
+      "Male",
+      "Middle Age",
+      "Charismatic",
+      "Standard"
+    ],
+    "language": "pt"
+  },
+  {
+    "id": "Portuguese_ThoughtfulLady",
+    "name": "Thoughtful Lady",
+    "tags": [
+      "Portuguese",
+      "Female",
+      "Middle Age",
+      "Worried",
+      "Standard"
+    ],
+    "language": "pt"
+  },
+  {
+    "id": "Portuguese_TheatricalActor",
+    "name": "Theatrical Actor",
+    "tags": [
+      "Portuguese",
+      "Male",
+      "Middle Age",
+      "Animated",
+      "Standard"
+    ],
+    "language": "pt"
+  },
+  {
+    "id": "Portuguese_FragileBoy",
+    "name": "Fragile Boy",
+    "tags": [
+      "Portuguese",
+      "Male",
+      "Young Adult",
+      "Gentle",
+      "Standard"
+    ],
+    "language": "pt"
+  },
+  {
+    "id": "Portuguese_ChattyGirl",
+    "name": "Chatty Girl",
+    "tags": [
+      "Portuguese",
+      "Female",
+      "Young Adult",
+      "Conversational",
+      "Standard"
+    ],
+    "language": "pt"
+  },
+  {
+    "id": "Portuguese_Conscientiousinstructor",
+    "name": "Conscientious Instructor",
+    "tags": [
+      "Portuguese",
+      "Female",
+      "Young Adult",
+      "Youthful",
+      "Standard"
+    ],
+    "language": "pt"
+  },
+  {
+    "id": "Portuguese_RationalMan",
+    "name": "Rational Man",
+    "tags": [
+      "Portuguese",
+      "Male",
+      "Adult",
+      "Thoughtful",
+      "Standard"
+    ],
+    "language": "pt"
+  },
+  {
+    "id": "Portuguese_WiseScholar",
+    "name": "Wise Scholar",
+    "tags": [
+      "Portuguese",
+      "Male",
+      "Young Adult",
+      "Conversational",
+      "Standard"
+    ],
+    "language": "pt"
+  },
+  {
+    "id": "Portuguese_FrankLady",
+    "name": "Frank Lady",
+    "tags": [
+      "Portuguese",
+      "Female",
+      "Middle Age",
+      "Agitated",
+      "Standard"
+    ],
+    "language": "pt"
+  },
+  {
+    "id": "Portuguese_DeterminedManager",
+    "name": "Determined Manager",
+    "tags": [
+      "Portuguese",
+      "Female",
+      "Middle Age",
+      "Attitude",
+      "Standard"
+    ],
+    "language": "pt"
+  },
+  {
+    "id": "Russian_HandsomeChildhoodFriend",
+    "name": "Handsome Childhood Friend",
+    "tags": [
+      "Russian",
+      "Female",
+      "Youth",
+      "Aggressive",
+      "Standard"
+    ],
+    "language": "ru"
+  },
+  {
+    "id": "Russian_BrightHeroine",
+    "name": "Bright Queen",
+    "tags": [
+      "Russian",
+      "Female",
+      "Adult",
+      "Arrogant",
+      "Standard"
+    ],
+    "language": "ru"
+  },
+  {
+    "id": "Russian_AmbitiousWoman",
+    "name": "Ambitious Woman",
+    "tags": [
+      "Russian",
+      "Female",
+      "Adult",
+      "Demanding",
+      "Standard"
+    ],
+    "language": "ru"
+  },
+  {
+    "id": "Russian_ReliableMan",
+    "name": "Reliable Man",
+    "tags": [
+      "Russian",
+      "Male",
+      "Middle Age",
+      "Steady",
+      "Standard"
+    ],
+    "language": "ru"
+  },
+  {
+    "id": "Italian_ReliableMan",
+    "name": "Reliable Man",
+    "tags": [
+      "Italian",
+      "Male",
+      "Adult",
+      "Confident",
+      "Standard"
+    ],
+    "language": "it"
+  },
+  {
+    "id": "Russian_CrazyQueen",
+    "name": "Crazy Girl",
+    "tags": [
+      "Russian",
+      "Female",
+      "Adult",
+      "Energetic",
+      "Standard"
+    ],
+    "language": "ru"
+  },
+  {
+    "id": "Italian_AthleticStudent",
+    "name": "Athletic Student",
+    "tags": [
+      "Italian",
+      "Male",
+      "Adult",
+      "Charming",
+      "Standard"
+    ],
+    "language": "it"
+  },
+  {
+    "id": "Russian_PessimisticGirl",
+    "name": "Pessimistic Girl",
+    "tags": [
+      "Russian",
+      "Female",
+      "Adult",
+      "Compassionate",
+      "Standard"
+    ],
+    "language": "ru"
+  },
+  {
+    "id": "Italian_ArrogantPrincess",
+    "name": "Arrogant Princess",
+    "tags": [
+      "Italian",
+      "Female",
+      "Young Adult",
+      "Passionate",
+      "Standard"
+    ],
+    "language": "it"
+  },
+  {
+    "id": "Russian_AttractiveGuy",
+    "name": "Attractive Guy",
+    "tags": [
+      "Russian",
+      "Male",
+      "Adult",
+      "Deep-voiced",
+      "Standard"
+    ],
+    "language": "ru"
+  },
+  {
+    "id": "Russian_Bad-temperedBoy",
+    "name": "Bad-tempered Boy",
+    "tags": [
+      "Russian",
+      "Male",
+      "Adult",
+      "Charming",
+      "Standard"
+    ],
+    "language": "ru"
+  },
+  {
+    "id": "Spanish_SereneWoman",
+    "name": "Serene Woman",
+    "tags": [
+      "Spanish",
+      "Female",
+      "Young Adult",
+      "Soothing",
+      "Standard"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "Spanish_MaturePartner",
+    "name": "Mature Partner",
+    "tags": [
+      "Spanish",
+      "Male",
+      "Middle Age",
+      "Warm",
+      "Standard"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "Spanish_CaptivatingStoryteller",
+    "name": "Captivating Storyteller",
+    "tags": [
+      "Spanish",
+      "Male",
+      "Middle Age",
+      "Narrator",
+      "Standard"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "Spanish_Narrator",
+    "name": "Narrator",
+    "tags": [
+      "Spanish",
+      "Female",
+      "Middle Age",
+      "Storytelling",
+      "Standard"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "Spanish_WiseScholar",
+    "name": "Wise Scholar",
+    "tags": [
+      "Spanish",
+      "Male",
+      "Young Adult",
+      "Conversational",
+      "Standard"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "Spanish_Kind-heartedGirl",
+    "name": "Kind-hearted Girl",
+    "tags": [
+      "Spanish",
+      "Female",
+      "Young Adult",
+      "Bright",
+      "Standard"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "Spanish_DeterminedManager",
+    "name": "Determined Manager",
+    "tags": [
+      "Spanish",
+      "Female",
+      "Middle Age",
+      "Businesslike",
+      "Standard"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "Spanish_BossyLeader",
+    "name": "Bossy Leader",
+    "tags": [
+      "Spanish",
+      "Male",
+      "Adult",
+      "Businesslike",
+      "Standard"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "Spanish_ReservedYoungMan",
+    "name": "Reserved Young Man",
+    "tags": [
+      "Spanish",
+      "Male",
+      "Young Adult",
+      "Tranquil",
+      "Standard"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "Spanish_ConfidentWoman",
+    "name": "Confident Woman",
+    "tags": [
+      "Spanish",
+      "Female",
+      "Young Adult",
+      "Clear and firm",
+      "Standard"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "Spanish_ThoughtfulMan",
+    "name": "Thoughtful Man",
+    "tags": [
+      "Spanish",
+      "Male",
+      "Young Adult",
+      "Sober",
+      "Standard"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "Spanish_Strong-WilledBoy",
+    "name": "Strong-willed Boy",
+    "tags": [
+      "Spanish",
+      "Male",
+      "Adult",
+      "Mature",
+      "Standard"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "Spanish_SophisticatedLady",
+    "name": "Sophisticated Lady",
+    "tags": [
+      "Spanish",
+      "Female",
+      "Adult",
+      "Refined",
+      "Standard"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "Spanish_RationalMan",
+    "name": "Rational Man",
+    "tags": [
+      "Spanish",
+      "Male",
+      "Adult",
+      "Thoughtful",
+      "Standard"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "Spanish_AnimeCharacter",
+    "name": "Anime Character",
+    "tags": [
+      "Spanish",
+      "Female",
+      "Middle Age",
+      "Animated",
+      "Standard"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "Spanish_Deep-tonedMan",
+    "name": "Deep-toned Man",
+    "tags": [
+      "Spanish",
+      "Male",
+      "Middle Age",
+      "Charismatic",
+      "Standard"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "Spanish_Fussyhostess",
+    "name": "Fussy hostess",
+    "tags": [
+      "Spanish",
+      "Female",
+      "Middle Age",
+      "Intense",
+      "Standard"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "Spanish_SincereTeen",
+    "name": "Sincere Teen",
+    "tags": [
+      "Spanish",
+      "Male",
+      "Young Adult",
+      "Heartfelt",
+      "Standard"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "Spanish_FrankLady",
+    "name": "Frank Lady",
+    "tags": [
+      "Spanish",
+      "Female",
+      "Adult",
+      "Agitated",
+      "Standard"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "Spanish_Comedian",
+    "name": "Comedian",
+    "tags": [
+      "Spanish",
+      "Male",
+      "Young Adult",
+      "Humor",
+      "Standard"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "Spanish_Debator",
+    "name": "Debator",
+    "tags": [
+      "Spanish",
+      "Male",
+      "Middle Age",
+      "Tough",
+      "Standard"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "Spanish_ToughBoss",
+    "name": "Tough Boss",
+    "tags": [
+      "Spanish",
+      "Female",
+      "Middle Age",
+      "Mature",
+      "Standard"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "Spanish_Wiselady",
+    "name": "Wise Lady",
+    "tags": [
+      "Spanish",
+      "Female",
+      "Middle Age",
+      "Neutral",
+      "Standard"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "Spanish_Steadymentor",
+    "name": "Steady Mentor",
+    "tags": [
+      "Spanish",
+      "Male",
+      "Young Adult",
+      "Arrogant",
+      "Standard"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "Spanish_Jovialman",
+    "name": "Jovial Man",
+    "tags": [
+      "Spanish",
+      "Male",
+      "Senior",
+      "Gravelly",
+      "Standard"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "Spanish_SantaClaus",
+    "name": "Santa Claus",
+    "tags": [
+      "Spanish",
+      "Male",
+      "Senior",
+      "Joyful",
+      "Standard"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "Spanish_Rudolph",
+    "name": "Rudolph",
+    "tags": [
+      "Spanish",
+      "Male",
+      "Young Adult",
+      "Naive",
+      "Standard"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "Spanish_Intonategirl",
+    "name": "Intonate Girl",
+    "tags": [
+      "Spanish",
+      "Female",
+      "Young Adult",
+      "Versatile",
+      "Standard"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "Spanish_Arnold",
+    "name": "Arnold",
+    "tags": [
+      "Spanish",
+      "Male",
+      "Adult",
+      "Steady",
+      "Standard"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "Spanish_Ghost",
+    "name": "Ghost",
+    "tags": [
+      "Spanish",
+      "Male",
+      "Adult",
+      "Raspy",
+      "Standard"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "Spanish_HumorousElder",
+    "name": "Humorous Elder",
+    "tags": [
+      "Spanish",
+      "Male",
+      "Senior",
+      "Eccentric",
+      "Standard"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "Spanish_EnergeticBoy",
+    "name": "Energetic Boy",
+    "tags": [
+      "Spanish",
+      "Male",
+      "Young Adult",
+      "Cheerful",
+      "Standard"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "Spanish_WhimsicalGirl",
+    "name": "Whimsical Girl",
+    "tags": [
+      "Spanish",
+      "Female",
+      "Young Adult",
+      "Witty",
+      "Standard"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "Spanish_StrictBoss",
+    "name": "Strict Boss",
+    "tags": [
+      "Spanish",
+      "Female",
+      "Young Adult",
+      "Commanding",
+      "Standard"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "Spanish_ReliableMan",
+    "name": "Reliable Man",
+    "tags": [
+      "Spanish",
+      "Male",
+      "Adult",
+      "Steady",
+      "Standard"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "Spanish_SereneElder",
+    "name": "Serene Elder",
+    "tags": [
+      "Spanish",
+      "Male",
+      "Senior",
+      "Reflective",
+      "Standard"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "Spanish_AngryMan",
+    "name": "Angry Man",
+    "tags": [
+      "Spanish",
+      "Male",
+      "Young Adult",
+      "Intense",
+      "Standard"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "Spanish_AssertiveQueen",
+    "name": "Assertive Queen",
+    "tags": [
+      "Spanish",
+      "Female",
+      "Young Adult",
+      "Firm",
+      "Standard"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "Spanish_CaringGirlfriend",
+    "name": "Caring Girlfriend",
+    "tags": [
+      "Spanish",
+      "Female",
+      "Adult",
+      "Dreamy",
+      "Standard"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "Spanish_PowerfulSoldier",
+    "name": "Powerful Soldier",
+    "tags": [
+      "Spanish",
+      "Male",
+      "Young Adult",
+      "Youthful and Bold",
+      "Standard"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "Spanish_PassionateWarrior",
+    "name": "Passionate Warrior",
+    "tags": [
+      "Spanish",
+      "Male",
+      "Young Adult",
+      "Energetic",
+      "Standard"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "Spanish_ChattyGirl",
+    "name": "Chatty Girl",
+    "tags": [
+      "Spanish",
+      "Female",
+      "Young Adult",
+      "Conversational",
+      "Standard"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "Spanish_RomanticHusband",
+    "name": "Romantic Husband",
+    "tags": [
+      "Spanish",
+      "Male",
+      "Middle Age",
+      "Emotional",
+      "Standard"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "Spanish_CompellingGirl",
+    "name": "Compelling Girl",
+    "tags": [
+      "Spanish",
+      "Female",
+      "Young Adult",
+      "Persuasive",
+      "Standard"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "Spanish_PowerfulVeteran",
+    "name": "Powerful Veteran",
+    "tags": [
+      "Spanish",
+      "Male",
+      "Middle Age",
+      "Strong",
+      "Standard"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "Spanish_SensibleManager",
+    "name": "Sensible Manager",
+    "tags": [
+      "Spanish",
+      "Male",
+      "Adult",
+      "Charismatic",
+      "Standard"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "Spanish_ThoughtfulLady",
+    "name": "Thoughtful Lady",
+    "tags": [
+      "Spanish",
+      "Female",
+      "Adult",
+      "Worried",
+      "Standard"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "Turkish_CalmWoman",
+    "name": "Calm Woman",
+    "tags": [
+      "Turkish",
+      "Female",
+      "Adult",
+      "Audiobook",
+      "Standard"
+    ],
+    "language": "tr"
+  },
+  {
+    "id": "Turkish_Trustworthyman",
+    "name": "Trustworthy man",
+    "tags": [
+      "Turkish",
+      "Male",
+      "Adult",
+      "Resonate",
+      "Standard"
+    ],
+    "language": "tr"
+  },
+  {
+    "id": "Ukrainian_CalmWoman",
+    "name": "Calm Woman",
+    "tags": [
+      "Ukrainian",
+      "Female",
+      "Adult",
+      "Audiobook",
+      "Standard"
+    ],
+    "language": "uk"
+  },
+  {
+    "id": "Ukrainian_WiseScholar",
+    "name": "Wise Scholar",
+    "tags": [
+      "Ukrainian",
+      "Male",
+      "Young Adult",
+      "Conversational",
+      "Standard"
+    ],
+    "language": "uk"
+  },
+  {
+    "id": "Vietnamese_female_4_v1",
+    "name": "Confident Woman",
+    "tags": [
+      "Vietnamese",
+      "Female",
+      "Adult",
+      "Broadcast",
+      "Standard"
+    ],
+    "language": "vi"
+  },
+  {
+    "id": "Vietnamese_male_1_v2",
+    "name": "Friendly Man",
+    "tags": [
+      "Vietnamese",
+      "Male",
+      "Adult",
+      "Tranquil",
+      "Standard"
+    ],
+    "language": "vi"
+  },
+  {
+    "id": "Vietnamese_kindhearted_girl",
+    "name": "Kind-hearted girl",
+    "tags": [
+      "Vietnamese",
+      "Female",
+      "Young Adult",
+      "Warim",
+      "Standard"
+    ],
+    "language": "vi"
+  },
+  {
+    "id": "Thai_male_1_sample8",
+    "name": "Serene Man",
+    "tags": [
+      "Thai",
+      "Male",
+      "Adult",
+      "Magnetic",
+      "Standard"
+    ],
+    "language": "th"
+  },
+  {
+    "id": "Thai_male_2_sample2",
+    "name": "Friendly Man",
+    "tags": [
+      "Thai",
+      "Male",
+      "Adult",
+      "Lively",
+      "Standard"
+    ],
+    "language": "th"
+  },
+  {
+    "id": "Thai_female_1_sample1",
+    "name": "Confident Woman",
+    "tags": [
+      "Thai",
+      "Female",
+      "Adult",
+      "Neutral",
+      "Standard"
+    ],
+    "language": "th"
+  },
+  {
+    "id": "Thai_female_2_sample2",
+    "name": "Energetic Woman",
+    "tags": [
+      "Thai",
+      "Female",
+      "Adult",
+      "Energetic",
+      "Standard"
+    ],
+    "language": "th"
+  },
+  {
+    "id": "Polish_male_1_sample4",
+    "name": "Male Narrator",
+    "tags": [
+      "Polish",
+      "Male",
+      "Adult",
+      "Mature",
+      "Standard"
+    ],
+    "language": "pl"
+  },
+  {
+    "id": "Polish_male_2_sample3",
+    "name": "Male Anchor",
+    "tags": [
+      "Polish",
+      "Male",
+      "Adult",
+      "Broadcast",
+      "Standard"
+    ],
+    "language": "pl"
+  },
+  {
+    "id": "Polish_female_1_sample1",
+    "name": "Calm Woman",
+    "tags": [
+      "Polish",
+      "Female",
+      "Adult",
+      "Calm",
+      "Standard"
+    ],
+    "language": "pl"
+  },
+  {
+    "id": "Polish_female_2_sample3",
+    "name": "Casual Woman",
+    "tags": [
+      "Polish",
+      "Female",
+      "Adult",
+      "Neutral",
+      "Standard"
+    ],
+    "language": "pl"
+  },
+  {
+    "id": "Romanian_male_1_sample2",
+    "name": "Reliable Man",
+    "tags": [
+      "Romanian",
+      "Male",
+      "Adult",
+      "Neutral",
+      "Standard"
+    ],
+    "language": "ro"
+  },
+  {
+    "id": "Romanian_male_2_sample1",
+    "name": "Energetic Youth",
+    "tags": [
+      "Romanian",
+      "Male",
+      "Adult",
+      "Energetic",
+      "Standard"
+    ],
+    "language": "ro"
+  },
+  {
+    "id": "Romanian_female_1_sample4",
+    "name": "Optimistic Youth",
+    "tags": [
+      "Romanian",
+      "Female",
+      "Adult",
+      "Cheerful",
+      "Standard"
+    ],
+    "language": "ro"
+  },
+  {
+    "id": "Romanian_female_2_sample1",
+    "name": "Gentle Woman",
+    "tags": [
+      "Romanian",
+      "Female",
+      "Adult",
+      "Gentle",
+      "Standard"
+    ],
+    "language": "ro"
+  },
+  {
+    "id": "Greek_female_1_sample1",
+    "name": "Gentle Lady",
+    "tags": [
+      "Greek",
+      "Female",
+      "Adult",
+      "Gentle",
+      "Standard"
+    ],
+    "language": "el"
+  },
+  {
+    "id": "greek_male_1a_v1",
+    "name": "Thoughtful Mentor",
+    "tags": [
+      "Greek",
+      "Male",
+      "Adult",
+      "Intellectual",
+      "Standard"
+    ],
+    "language": "el"
+  },
+  {
+    "id": "Greek_female_2_sample3",
+    "name": "Girl Next Door",
+    "tags": [
+      "Greek",
+      "Female",
+      "Young Adult",
+      "Cheerful",
+      "Standard"
+    ],
+    "language": "el"
+  },
+  {
+    "id": "czech_male_1_v1",
+    "name": "Assured Presenter",
+    "tags": [
+      "Czech",
+      "Male",
+      "Young Adult",
+      "Serious",
+      "Standard"
+    ],
+    "language": "cs"
+  },
+  {
+    "id": "czech_female_5_v7",
+    "name": "Steadfast Narrator",
+    "tags": [
+      "Czech",
+      "Female",
+      "Adult",
+      "Broadcast",
+      "Standard"
+    ],
+    "language": "cs"
+  },
+  {
+    "id": "czech_female_2_v2",
+    "name": "Elegant Lady",
+    "tags": [
+      "Czech",
+      "Female",
+      "Adult",
+      "Graceful",
+      "Standard"
+    ],
+    "language": "cs"
+  },
+  {
+    "id": "finnish_male_3_v1",
+    "name": "Upbeat Man",
+    "tags": [
+      "Finnish",
+      "Female",
+      "Young Adult",
+      "Energetic",
+      "Standard"
+    ],
+    "language": "fi"
+  },
+  {
+    "id": "finnish_female_4_v1",
+    "name": "Assertive Woman",
+    "tags": [
+      "Finnish",
+      "Female",
+      "Adult",
+      "Determined",
+      "Standard"
+    ],
+    "language": "fi"
+  },
+  {
+    "id": "finnish_male_1_v2",
+    "name": "Friendly Boy",
+    "tags": [
+      "Finnish",
+      "Male",
+      "Young Adult",
+      "Deep",
+      "Standard"
+    ],
+    "language": "fi"
+  },
+  {
+    "id": "hindi_male_1_v2",
+    "name": "Trustworthy Advisor",
+    "tags": [
+      "Hindi",
+      "Male",
+      "Adult",
+      "Magnetic",
+      "Standard"
+    ],
+    "language": "hi"
+  },
+  {
+    "id": "hindi_female_2_v1",
+    "name": "Tranquil Woman",
+    "tags": [
+      "Hindi",
+      "Female",
+      "Adult",
+      "Gentle",
+      "Standard"
+    ],
+    "language": "hi"
+  },
+  {
+    "id": "hindi_female_1_v2",
+    "name": "News Anchor",
+    "tags": [
+      "Hindi",
+      "Female",
+      "Adult",
+      "Calm",
+      "Standard"
+    ],
+    "language": "hi"
+  },
+  {
+    "id": "MidanAr001",
+    "name": "Midan Arabic",
+    "language": "ar",
+    "engine": "minimax",
+    "sample_audio": "",
+    "tags": [
+      "Arabic",
+      "Midan",
+      "Custom",
+      "Podcast",
+      "News"
+    ]
+  },
+  {
+    "id": "nikolay_584343",
+    "name": "Nikolay",
+    "language": "en",
+    "engine": "minimax",
+    "sample_audio": "",
+    "tags": [
+      "English",
+      "Podcast",
+      "News",
+      "Custom"
+    ]
+  },
+  {
+    "id": "joey_40e9ee",
+    "name": "Joey",
+    "language": "en",
+    "engine": "minimax",
+    "sample_audio": "",
+    "tags": [
+      "English",
+      "Podcast",
+      "News",
+      "Custom"
+    ]
+  },
+  {
+    "id": "ken_cf70a3",
+    "name": "Ken",
+    "language": "en",
+    "engine": "minimax",
+    "sample_audio": "",
+    "tags": [
+      "Arabic",
+      "Podcast",
+      "News",
+      "Custom"
+    ]
+  },
+  {
+    "id": "factsverse_f86c2b",
+    "name": "FactsVerse",
+    "language": "en",
+    "engine": "minimax",
+    "sample_audio": "",
+    "tags": [
+      "English",
+      "FactsVerse",
+      "Podcast",
+      "News",
+      "Custom"
+    ]
+  },
+  {
+    "id": "mark_6eddb2",
+    "name": "Mark",
+    "language": "en",
+    "engine": "minimax",
+    "sample_audio": "",
+    "tags": [
+      "Male",
+      "narration",
+      "Custom"
+    ]
+  },
+  {
+    "id": "Scott1Dub",
+    "name": "Scott MiniMax",
+    "language": "en",
+    "engine": "minimax",
+    "sample_audio": "",
+    "tags": ["Custom", "Male", "English"]
+  }
+]
