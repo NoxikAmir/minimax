@@ -1861,6 +1861,28 @@ html.light-theme ::-webkit-scrollbar-track {
 }
 
 
+.char-counter-display {
+    text-align: right;
+    font-size: 0.9em;
+    color: var(--color-text-muted-layout);
+    margin-top: -15px; /* لسحب العداد قليلاً للأعلى */
+    margin-bottom: 20px;
+    padding-right: 5px;
+    transition: color 0.3s ease;
+    height: 15px; /* حجز مساحة لمنع اهتزاز الصفحة */
+}
+
+.char-counter-display.error {
+    color: var(--color-accent-error-layout);
+    font-weight: 600;
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  75% { transform: translateX(5px); }
+}
+
 </style>
 
 </head>
@@ -1922,6 +1944,7 @@ html.light-theme ::-webkit-scrollbar-track {
 
                 <label for="text">Enter Text:</label>
                 <textarea id="text" name="text_to_speak" rows="7" placeholder="Type your text here..." required></textarea>
+                <div id="charCounter" class="char-counter-display">0 characters</div>
 
                 <div class="voice-settings-container">
                     <div class="setting-slider-wrapper">
@@ -2049,6 +2072,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const ttsForm = document.getElementById('ttsForm');
     const languageSelect = document.getElementById('language');
     const textInput = document.getElementById('text');
+    const charCounter = document.getElementById('charCounter');
     const synthesizeBtn = document.getElementById('synthesizeBtn');
     
     // Status & Progress UI
@@ -2122,6 +2146,20 @@ document.addEventListener('DOMContentLoaded', () => {
         audioPlayer.addEventListener('play', () => { playPauseBtn.innerHTML = '<i class="fas fa-pause"></i>'; });
         audioPlayer.addEventListener('pause', () => { playPauseBtn.innerHTML = '<i class="fas fa-play"></i>'; });
         audioPlayer.addEventListener('ended', () => { playPauseBtn.innerHTML = '<i class="fas fa-redo"></i>'; });
+    }
+
+    if (textInput && charCounter) {
+        textInput.addEventListener('input', () => {
+            const count = textInput.value.length;
+            charCounter.textContent = `${count} characters`;
+            
+            // تحديث فوري لواجهة المستخدم حسب عدد الأحرف
+            if (count < 10) {
+                charCounter.classList.add('error');
+            } else {
+                charCounter.classList.remove('error');
+            }
+        });
     }
 
     if (audioPlayer && seekBar && currentTimeDisplay && durationDisplay && seekProgressFill) {
@@ -2360,6 +2398,18 @@ document.addEventListener('DOMContentLoaded', () => {
         ttsForm.addEventListener('submit', async (event) => {
             event.preventDefault();
             if (synthesizeBtn.disabled) return;
+
+            if (textInput.value.trim().length < 10) {
+                // عرض رسالة واضحة في العداد نفسه
+                charCounter.textContent = 'Please enter at least 10 characters.';
+                charCounter.classList.add('error'); 
+                
+                // إضافة اهتزازة خفيفة للـ textarea لجذب الانتباه
+                textInput.style.animation = 'shake 0.5s';
+                setTimeout(() => textInput.style.animation = '', 500);
+                
+                return; // منع إكمال الإرسال
+            }
 
             // Clear previous states
             if (currentPollingInterval) clearInterval(currentPollingInterval);
