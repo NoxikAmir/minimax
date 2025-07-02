@@ -209,7 +209,7 @@ html.light-theme .tts-studio-container #ttsForm label {
 .tts-studio-container #ttsForm select,
 .tts-studio-container #ttsForm textarea {
   width: 100%;
-  padding: 12px 18px;
+  padding: 12px 38px 12px 18px;
   margin-bottom: 20px;
   background-color: var(--color-bg-stardust);
   border: 1.5px solid var(--color-border-strong-layout);
@@ -1883,6 +1883,152 @@ html.light-theme ::-webkit-scrollbar-track {
   75% { transform: translateX(5px); }
 }
 
+
+
+/* Styling for the wrapper around the textarea */
+.textarea-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+/* The expand button inside the textarea */
+.expand-btn {
+    position: absolute;
+    top: 7px;
+    right: 14px;
+    font-size: 1.2em;
+    background: rgba(var(--color-text-primary-layout-rgb), 0.1);
+    color: var(--color-text-muted-layout);
+    border: none;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+    opacity: 0.7;
+}
+
+.expand-btn:hover {
+    background: var(--color-accent-primary-layout);
+    color: var(--color-text-on-accent-layout);
+    opacity: 1;
+}
+
+/* Full-screen Overlay */
+#fullscreen-editor-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(15, 12, 41, 0.9); /* var(--color-bg-deep-space) with opacity */
+    backdrop-filter: blur(5px);
+    z-index: 9998;
+    display: none; /* Hidden by default */
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+#fullscreen-editor-overlay.visible {
+    display: flex;
+    opacity: 1;
+}
+
+/* The content box of the fullscreen editor */
+#fullscreen-editor-content {
+    position: relative;
+    width: 95%;
+    height: 90%;
+    background-color: var(--color-bg-nebula);
+    border: 1px solid var(--color-border-strong-layout);
+    border-radius: var(--border-radius-medium-layout);
+    padding: 20px;
+    box-shadow: var(--standard-box-shadow-layout);
+}
+
+/* The textarea inside the modal */
+#fullscreen-textarea {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    resize: none;
+    color: var(--color-text-primary-layout);
+    font-size: 1.1em; /* Larger font for better readability */
+    font-family: var(--font-primary-layout);
+    line-height: 1.6;
+    padding: 10px;
+}
+
+#fullscreen-textarea:focus {
+    outline: none;
+}
+
+/* The close button for the modal */
+.close-btn {
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    background: var(--color-accent-error-layout);
+    color: white;
+    border: 3px solid var(--color-bg-nebula);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 1.2em;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.close-btn:hover {
+    transform: scale(1.1) rotate(90deg);
+    background-color: #ff0000;
+}
+
+/* --- 🎨 Fullscreen Editor Character Counter 🎨 --- */
+
+/* تعديل على حقل النص لإفساح المجال للعداد */
+#fullscreen-textarea {
+    padding-bottom: 40px; /* إضافة مساحة في الأسفل */
+}
+
+/* تصميم العداد الجديد بشكل احترافي */
+#fullscreen-char-counter {
+    position: absolute;
+    bottom: 15px;
+    right: 20px;
+    font-size: 0.9em;
+    font-family: var(--font-primary-layout);
+    color: var(--color-text-muted-layout);
+    background-color: rgba(15, 12, 41, 0.6); /* خلفية شبه شفافة (من لون --color-bg-deep-space) */
+    backdrop-filter: blur(5px); /* تأثير زجاجي ضبابي */
+    padding: 5px 12px;
+    border-radius: var(--border-radius-small-layout);
+    border: 1px solid var(--color-border-glow-layout);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    pointer-events: none; /* لمنع العداد من إعاقة التفاعل مع النص */
+    z-index: 5;
+}
+
+/* تصميم العداد في حالة الخطأ (عدد الأحرف قليل) */
+#fullscreen-char-counter.error {
+    color: var(--color-accent-error-layout);
+    font-weight: 700;
+    text-shadow: 0 0 8px rgba(255, 61, 0, 0.5); /* توهج بلون الخطأ */
+    border-color: var(--color-accent-error-layout);
+    animation: shake 0.5s; /* استخدام حركة الاهتزاز الموجودة */
+}
+
+
 </style>
 
 </head>
@@ -1943,7 +2089,12 @@ html.light-theme ::-webkit-scrollbar-track {
                 </select>
 
                 <label for="text">Enter Text:</label>
-                <textarea id="text" name="text_to_speak" rows="7" placeholder="Type your text here..." required></textarea>
+                <div class="textarea-wrapper">
+                    <textarea id="text" name="text_to_speak" rows="7" placeholder="Type your text here..." required></textarea>
+                    <button type="button" id="expand-editor-btn" class="expand-btn" title="Full-screen editor">
+                        <i class="fa-solid fa-expand"></i>
+                    </button>
+                </div>
                 <div id="charCounter" class="char-counter-display">0 characters</div>
 
                 <div class="voice-settings-container">
@@ -2060,6 +2211,19 @@ html.light-theme ::-webkit-scrollbar-track {
             <i class="fas fa-sun"></i>
             <i class="fas fa-moon"></i>
         </button>
+
+
+        <div id="fullscreen-editor-overlay">
+            <div id="fullscreen-editor-content">
+                <textarea id="fullscreen-textarea" placeholder="Type your text here..."></textarea>
+                
+                <div id="fullscreen-char-counter" class="char-counter-display-fullscreen">0 characters</div>
+
+                <button type="button" id="close-editor-btn" class="close-btn" title="Close editor">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+        </div>
 
         <script>
             const SCRIPT_ROOT = {{ request.script_root|tojson }};
@@ -2529,6 +2693,68 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     });
+    
+    
+// --- 🚀 Full-screen Editor Logic ---
+const expandBtn = document.getElementById('expand-editor-btn');
+const closeBtn = document.getElementById('close-editor-btn');
+const editorOverlay = document.getElementById('fullscreen-editor-overlay');
+const fullscreenTextarea = document.getElementById('fullscreen-textarea');
+const fullscreenCharCounter = document.getElementById('fullscreen-char-counter'); // الإمساك بعنصر العداد الجديد
+const mainTextInput = document.getElementById('text');
+
+// دالة مخصصة لتحديث عداد ملء الشاشة
+const updateFullscreenCounter = () => {
+    if (!fullscreenTextarea || !fullscreenCharCounter) return;
+    
+    const count = fullscreenTextarea.value.length;
+    fullscreenCharCounter.textContent = `${count} characters`; // استخدام "chars" للاختصار
+
+    // إضافة أو إزالة فئة الخطأ بناءً على عدد الأحرف
+    if (count < 10) {
+        fullscreenCharCounter.classList.add('error');
+    } else {
+        fullscreenCharCounter.classList.remove('error');
+    }
+};
+
+const openEditor = () => {
+    // مزامنة النص من المحرر الأصلي إلى محرر ملء الشاشة
+    fullscreenTextarea.value = mainTextInput.value;
+    editorOverlay.classList.add('visible');
+    updateFullscreenCounter(); // تحديث العداد فور فتح المحرر
+    fullscreenTextarea.focus();
+};
+
+const closeEditor = () => {
+    // مزامنة النص من محرر ملء الشاشة إلى المحرر الأصلي
+    mainTextInput.value = fullscreenTextarea.value;
+    // تفعيل حدث الإدخال يدويًا لتحديث العداد الأصلي
+    mainTextInput.dispatchEvent(new Event('input', { bubbles: true }));
+    editorOverlay.classList.remove('visible');
+};
+
+// ربط الأحداث
+expandBtn.addEventListener('click', openEditor);
+closeBtn.addEventListener('click', closeEditor);
+
+// الاستماع لحدث الإدخال في محرر ملء الشاشة لتحديث العداد مباشرة
+fullscreenTextarea.addEventListener('input', updateFullscreenCounter);
+
+// إغلاق المحرر عند النقر على الخلفية
+editorOverlay.addEventListener('click', (event) => {
+    if (event.target === editorOverlay) {
+        closeEditor();
+    }
+});
+
+// إغلاق المحرر عند الضغط على مفتاح "Escape"
+document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape' && editorOverlay.classList.contains('visible')) {
+        closeEditor();
+    }
+});
+// --- End of Full-screen Editor Logic ---
     
 });
         </script>
