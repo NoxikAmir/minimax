@@ -7,6 +7,10 @@ v/
 __pycache__/
 *.pyc
 
+# Database files
+*.db
+*.sqlite3
+
 # IDE files
 .vscode/
 .idea/
