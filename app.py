@@ -479,5 +479,18 @@ def upload_to_r2(local_file_path, object_name=None):
         print(f"❌ Error uploading to R2: {e}")
         return None
     
+@app.route("/ping-db")
+def ping_db():
+    from database import SessionLocal
+    session = SessionLocal()
+    try:
+        session.execute("SELECT 1")
+        return {"status": "Database awake ✅"}
+    except Exception as e:
+        return {"status": "Database error ❌", "error": str(e)}
+    finally:
+        session.close()
+
+    
 if __name__ == '__main__':
     app.run(debug=True, port=5000)
