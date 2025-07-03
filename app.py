@@ -188,7 +188,10 @@ def process_minimax_tts_chunk(chunk_text, output_file, voice_id, speed, pitch, v
 
 def background_minimax_tts_task(app_context, text_to_speak, voice_id, language, task_id, user_id=None, speed=1.0, pitch=0, vol=1.0, output_format='mp3'):
     with app_context:
-        minimax_tts_tasks_status[task_id] = {'status': 'processing', 'progress': 0, 'public_download_url': None, 'filename': None, 'errors': []}
+        app.logger.info(f"[Task {task_id}] Starting Minimax TTS task for user {user_id}.")
+        # --- 💡 تعديل: تحديث الحالة فقط، لا تقم بإنشائها من جديد ---
+        minimax_tts_tasks_status[task_id]['status'] = 'processing'
+        # --- نهاية التعديل ---
         temp_folder = os.path.join(UPLOAD_FOLDER, "minimax_temp", task_id)
         os.makedirs(temp_folder, exist_ok=True)
         try:
@@ -313,11 +316,24 @@ def minimax_studio_page():
     voices = get_minimax_voices()
     return render_template('minimax_studio.html', minimax_voices_json=voices)
 
+
 @app.route('/synthesize_minimax', methods=['POST'])
 @login_required
 def synthesize_minimax_speech_route():
     data = request.get_json()
     task_id = str(uuid.uuid4())
+    app.logger.info(f"Received new TTS request. Task ID: {task_id}")
+    
+    # --- 💡 تعديل: إنشاء حالة أولية للمهمة قبل بدء المهمة الخلفية ---
+    minimax_tts_tasks_status[task_id] = {
+        'status': 'queued',
+        'progress': 5, # يمكن أن تبدأ من 5% لتعطي شعورًا بالتقدم الفوري
+        'public_download_url': None,
+        'filename': None,
+        'errors': []
+    }
+    # --- نهاية التعديل ---
+
     thread = threading.Thread(
         target=background_minimax_tts_task,
         args=(
@@ -328,6 +344,7 @@ def synthesize_minimax_speech_route():
     )
     thread.start()
     return jsonify({"task_id": task_id, "status_url": url_for('get_minimax_tts_task_status', task_id=task_id)}), 202
+
 
 @app.route('/minimax_tts_task_status/<task_id>')
 def get_minimax_tts_task_status(task_id):
