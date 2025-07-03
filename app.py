@@ -209,7 +209,8 @@ def background_minimax_tts_task(app_context, text_to_speak, voice_id, language, 
                         temp_files[idx] = future.result()
                     except Exception as e:
                         minimax_tts_tasks_status[task_id]['errors'].append(f"Chunk {idx+1} failed: {e}")
-                    minimax_tts_tasks_status[task_id]['progress'] = 10 + int(((i + 1) / total_chunks) * 80)
+                    # minimax_tts_tasks_status[task_id]['progress'] = 10 + int(((i + 1) / total_chunks) * 80)
+                    minimax_tts_tasks_status[task_id]['progress'] = 10 + int(((i + 1) / total_chunks) * 85)
 
             valid_files = [f for f in temp_files if f]
             if not valid_files: raise RuntimeError("All chunks failed to process.")

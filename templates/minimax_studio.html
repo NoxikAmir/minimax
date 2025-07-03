@@ -2454,25 +2454,55 @@ document.addEventListener('DOMContentLoaded', () => {
         displayTaskErrors(data.errors || ["An unknown error occurred."]);
     }
 
-    async function pollTaskStatus(statusUrl) {
-        try {
-            const response = await fetch(statusUrl);
-            if (!response.ok) throw new Error(`HTTP ${response.status}`);
-            const data = await response.json();
-
-            if (data.status === 'completed') {
-                handlePollingCompletion(data);
-            } else if (data.status === 'error') {
-                handlePollingError(data);
-            } else { // 'processing' or 'queued'
-                updateTaskProgressUI(data.progress || 10, `Status: ${data.status}...`);
-                displayTaskErrors(data.errors);
-            }
-        } catch (error) {
-            console.error('Polling error:', error);
-            handlePollingError({ errors: [`Polling failed: ${error.message}`] });
+    // استبدل محتوى دالة pollTaskStatus بالكامل بهذا الكود
+async function pollTaskStatus(statusUrl) {
+    try {
+        const response = await fetch(statusUrl);
+        // لا نعتبر 404 خطأ فادحًا، بل حالة مؤقتة
+        if (response.status === 404) {
+             console.warn('Task not found yet, continuing to poll...');
+             // لا نغير واجهة المستخدم، فقط ننتظر الطلب التالي
+             return;
         }
+        if (!response.ok) {
+            throw new Error(`HTTP error ${response.status}`);
+        }
+        
+        const data = await response.json();
+
+        // ✅ المنطق الجديد والمحسن للتعامل مع كل الحالات
+        switch (data.status) {
+            case 'completed':
+                updateTaskProgressUI(100, "Generation complete! ✅");
+                handlePollingCompletion(data);
+                break;
+            case 'error':
+                updateTaskProgressUI(100, "Task failed! ❌");
+                handlePollingError(data);
+                break;
+            case 'processing':
+                updateTaskProgressUI(data.progress || 10, `Generating audio... (Chunk ${Math.ceil(data.progress / (85 / data.total_chunks) ) || 1}/${data.total_chunks || '?'}) ⚙️`);
+                displayTaskErrors(data.errors);
+                break;
+            case 'queued':
+                updateTaskProgressUI(data.progress || 5, "Waiting in queue... ⏳");
+                break;
+            case 'not_found':
+                 // هذا يمنع ظهور "not_found" للمستخدم
+                 console.warn('Task status is not_found, continuing to poll...');
+                 updateTaskProgressUI(2, "Initializing... ✨");
+                 break;
+            default:
+                // حالة افتراضية لأي شيء آخر
+                updateTaskProgressUI(data.progress || 0, `Status: ${data.status}...`);
+        }
+
+    } catch (error) {
+        console.error('Polling error:', error);
+        // في حالة فشل الاتصال بالكامل، نوقف المتابعة
+        handlePollingError({ errors: [`Connection to server failed: ${error.message}`] });
     }
+}
 
     // --- 📜 History Functions ---
     async function fetchAndDisplayTtsHistory(page = 1) {
