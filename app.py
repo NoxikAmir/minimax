@@ -5,8 +5,9 @@ import re
 import json
 import uuid
 import math
+import logging # 💡 استيراد مكتبة التسجيل
+import sys     # 💡 استيراد مكتبة النظام
 import time
-import logging
 import threading
 import shutil
 import requests
@@ -28,6 +29,17 @@ from flask_login import LoginManager, UserMixin, login_user, logout_user, login_
 
 # --- استيراد ملفات المشروع ---
 from models import Base, User, GeneratedTTSAudio
+
+# --- 💡 إضافة مهمة: إعداد نظام التسجيل (Logging) ---
+# هذا يضمن ظهور كل سجلات التطبيق في fly logs
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s [%(levelname)s] [%(name)s] %(message)s",
+    handlers=[
+        logging.StreamHandler(sys.stdout)
+    ]
+)
+# --- نهاية الإضافة ---
 
 # --- إعداد التطبيق ---
 app = Flask(__name__)
