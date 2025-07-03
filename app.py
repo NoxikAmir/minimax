@@ -479,15 +479,17 @@ def upload_to_r2(local_file_path, object_name=None):
         print(f"❌ Error uploading to R2: {e}")
         return None
     
+from sqlalchemy import text  # ✅ أضف هذا السطر
+
 @app.route("/ping-db")
 def ping_db():
     from database import SessionLocal
     session = SessionLocal()
     try:
-        session.execute("SELECT 1")
-        return {"status": "Database awake ✅"}
+        session.execute(text("SELECT 1"))  # ✅ استخدم text() هنا
+        return jsonify({"status": "Database awake ✅"})
     except Exception as e:
-        return {"status": "Database error ❌", "error": str(e)}
+        return jsonify({"status": "Database error ❌", "error": str(e)})
     finally:
         session.close()
 
