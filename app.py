@@ -493,6 +493,11 @@ def ping_db():
     finally:
         session.close()
 
+
+@app.route('/health')
+def health_check():
+    """مسار بسيط وسريع لفحص الصحة."""
+    return "OK", 200
     
 if __name__ == '__main__':
     app.run(debug=True, port=5000)
