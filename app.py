@@ -325,26 +325,32 @@ def synthesize_minimax_speech_route():
     task_id = str(uuid.uuid4())
     app.logger.info(f"Received new TTS request. Task ID: {task_id}")
     
-    # --- 💡 تعديل: إنشاء حالة أولية للمهمة قبل بدء المهمة الخلفية ---
+    # --- 💡 تعديل جديد: حساب عدد المقاطع مسبقًا ---
+    text_to_speak = data.get('text', '')
+    language = data.get('language', 'en')
+    total_chunks = len(split_text(text_to_speak, language=language, max_words=400, max_chars=1500))
+    # --- نهاية التعديل ---
+
     minimax_tts_tasks_status[task_id] = {
         'status': 'queued',
-        'progress': 5, # يمكن أن تبدأ من 5% لتعطي شعورًا بالتقدم الفوري
+        'progress': 5,
+        'total_chunks': total_chunks, # 💡 إضافة العدد الإجمالي هنا
         'public_download_url': None,
         'filename': None,
         'errors': []
     }
-    # --- نهاية التعديل ---
 
     thread = threading.Thread(
         target=background_minimax_tts_task,
         args=(
-            app.app_context(), data.get('text'), data.get('voice_id'),
-            data.get('language'), task_id, current_user.id,
+            app.app_context(), text_to_speak, data.get('voice_id'),
+            language, task_id, current_user.id,
             data.get('speed', 1.0), data.get('pitch', 0), data.get('vol', 1.0)
         )
     )
     thread.start()
     return jsonify({"task_id": task_id, "status_url": url_for('get_minimax_tts_task_status', task_id=task_id)}), 202
+
 
 
 @app.route('/minimax_tts_task_status/<task_id>')

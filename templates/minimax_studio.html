@@ -2481,9 +2481,10 @@ async function pollTaskStatus(statusUrl) {
                 handlePollingError(data);
                 break;
             case 'processing':
-                updateTaskProgressUI(data.progress || 10, `Generating audio... (Chunk ${Math.ceil(data.progress / (85 / data.total_chunks) ) || 1}/${data.total_chunks || '?'}) ⚙️`);
-                displayTaskErrors(data.errors);
-                break;
+              // ✅ السطر الجديد والمبسط الذي يجب إضافته
+              updateTaskProgressUI(data.progress || 10, `Generating audio... [${data.progress || 10}%] ⚙️`);
+              displayTaskErrors(data.errors);
+              break;
             case 'queued':
                 updateTaskProgressUI(data.progress || 5, "Waiting in queue... ⏳");
                 break;
